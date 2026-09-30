@@ -23,8 +23,8 @@ CONFIG_DIR = ROOT / "config"
 TZ = ZoneInfo(os.environ.get("DESK_TZ", "Asia/Kolkata"))
 
 # Models are configurable so you can switch without touching code.
-NEWS_MODEL = os.environ.get("NEWS_MODEL", "claude-haiku-4-5-20251001")
-RESEARCH_MODEL = os.environ.get("RESEARCH_MODEL", "claude-sonnet-5")
+NEWS_MODEL = os.environ.get("NEWS_MODEL") or "claude-haiku-4-5-20251001"
+RESEARCH_MODEL = os.environ.get("RESEARCH_MODEL") or "claude-sonnet-5"
 
 SITE_URL = os.environ.get("SITE_URL", "").rstrip("/")
 
