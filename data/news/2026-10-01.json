@@ -1,0 +1,332 @@
+{
+  "date": "2026-10-01",
+  "generated_at": "2026-10-01T01:21:05+05:30",
+  "stats": {
+    "sources_checked": 17,
+    "failed_sources": [],
+    "candidates": 144
+  },
+  "stories": [
+    {
+      "headline": "Instagram Direct uses AI-native design to cut agent token costs 33%",
+      "what_happened": "Instagram Direct and Google engineers built an AI-native UI architecture using Jetpack Compose that reduces the cost per agent session by 33%. The project applied micro-optimizations to handle billions of daily messages on the platform.",
+      "status": "confirmed",
+      "why_it_matters": "Shows how companies can make AI agents cheaper and more efficient by redesigning apps from the ground up for AI, not just adding it on top.",
+      "dev_angle": "Jetpack Compose can help you build AI-native Android apps that use fewer tokens and run cheaper; consider redesigning for AI efficiency.",
+      "category": "software",
+      "reel_potential": "medium",
+      "hook_idea": "Instagram cut its AI costs by a third—here's the architecture that did it.",
+      "published": "2026-09-30T19:00:00+00:00",
+      "sources": [
+        {
+          "name": "Android Developers Blog",
+          "type": "official",
+          "title": "How Instagram Direct engineers built AI-native UI architecture with Jetpack Compose and reduced token cost per agent session by 33%",
+          "url": "https://android-developers.googleblog.com/2026/09/jetpack-compose-ai-native-ui-instagram-direct.html",
+          "published": "2026-09-30T19:00:00+00:00"
+        }
+      ],
+      "images": [
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiToIrLld0-C-pvslgz8at79PAB8PEmBYXR2-gn52dMNYSRRSS7CyH72MMAaYfYzlyytkN7zetm8aNLzPzUM4a6KSSNIbxQwTE6Q4hvF-8pXEAowszAsKUJprdYHdIf04ywrg3J90aCzt0gXrzV79Wic16zJJlmh-qCpNAOku_ntRvIRnXk4vnPcJ1MVtk/s1600/ComposeCarousel-Header-3.jpg",
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiToIrLld0-C-pvslgz8at79PAB8PEmBYXR2-gn52dMNYSRRSS7CyH72MMAaYfYzlyytkN7zetm8aNLzPzUM4a6KSSNIbxQwTE6Q4hvF-8pXEAowszAsKUJprdYHdIf04ywrg3J90aCzt0gXrzV79Wic16zJJlmh-qCpNAOku_ntRvIRnXk4vnPcJ1MVtk/s72-c/ComposeCarousel-Header-3.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "AWS launches agents for building and managing SaaS metering at scale",
+      "what_happened": "AWS announced general availability of an AI agent skill for AWS Marketplace metering integration. The skill guides sellers through building usage-based pricing integrations, recommends the correct metering API, and generates integration code automatically.",
+      "status": "confirmed",
+      "why_it_matters": "Makes it much faster and easier for SaaS companies to implement pay-as-you-go pricing without deep technical knowledge.",
+      "dev_angle": "AWS agents can now handle boilerplate SaaS integration work; focus your time on business logic instead.",
+      "category": "cloud",
+      "reel_potential": "medium",
+      "hook_idea": "AWS just handed SaaS pricing integrations to an AI—no engineers required.",
+      "published": "2026-09-30T05:00:00+00:00",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "AWS Marketplace launches an AI agent skill for usage-based metering integration",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/marketplace-ai-agent-metering/",
+          "published": "2026-09-30T05:00:00+00:00"
+        }
+      ],
+      "images": [],
+      "videos": []
+    },
+    {
+      "headline": "Amazon Bedrock now runs OpenAI's GPT-6.1 Sol at one-fifth the cost of GPT-6",
+      "what_happened": "AWS made OpenAI's GPT-6.1 Sol generally available on Amazon Bedrock. According to OpenAI, it performs nearly as well as GPT-6 Astra on demanding tasks like agentic coding and computer use, but costs about one-fifth as much.",
+      "status": "confirmed",
+      "why_it_matters": "Gives developers a powerful, cheaper option for building AI agents on AWS infrastructure.",
+      "dev_angle": "You can now run strong reasoning models through AWS with much lower costs—good option if you're already in the AWS ecosystem.",
+      "category": "cloud",
+      "reel_potential": "medium",
+      "hook_idea": "OpenAI's new model is one-fifth the price and runs on AWS.",
+      "published": "2026-09-29T20:17:00+00:00",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "OpenAI GPT-6.1 Sol is now generally available on Amazon Bedrock",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-1-sol-on-amazon-bedrock/",
+          "published": "2026-09-29T20:17:00+00:00"
+        }
+      ],
+      "images": [],
+      "videos": []
+    },
+    {
+      "headline": "Cloudflare's AI Gateway cuts inference costs with smart model routing",
+      "what_happened": "Cloudflare AI Gateway now features an Auto Router that uses an edge-deployed classifier to evaluate request complexity and select the optimal model. By balancing output quality against token costs, organizations can cut AI spending while keeping performance stable.",
+      "status": "confirmed",
+      "why_it_matters": "Helps teams spend less on AI inference by automatically choosing the right model for each task instead of always using the most powerful one.",
+      "dev_angle": "Use Cloudflare's Auto Router to reduce API costs without rewriting your application.",
+      "category": "cloud",
+      "reel_potential": "high",
+      "hook_idea": "This router cuts AI costs by using the right tool for each job—not the biggest one.",
+      "published": "2026-09-30T13:00:00+00:00",
+      "sources": [
+        {
+          "name": "Cloudflare Blog",
+          "type": "official",
+          "title": "Cut your AI spend with AI Gateway's Auto Router",
+          "url": "https://blog.cloudflare.com/auto-router/",
+          "published": "2026-09-30T13:00:00+00:00"
+        }
+      ],
+      "images": [
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M3S7D452WW49MASEPJCPYHG4.01M3S7D4ZYP6HJW63MM0D51J78.png",
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M3QZK4P6A5H0YYAEW0QN6YNC.png"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "Google watermarks AI-designed proteins to track biosecurity and origin",
+      "what_happened": "Google DeepMind introduced SynthID Bio, a watermarking technology that embeds an invisible mark into AI-generated proteins while preserving their biological function. The proof of concept works with popular protein design AI tools.",
+      "status": "confirmed",
+      "why_it_matters": "Makes it possible to track and verify AI-generated biological materials, important for biosecurity as AI protein design becomes more powerful.",
+      "dev_angle": "If you work with protein design tools, watermarking is coming—plan to handle verified origins in your pipelines.",
+      "category": "ai",
+      "reel_potential": "medium",
+      "hook_idea": "Google just figured out how to sign AI-designed proteins without breaking them.",
+      "published": "2026-09-30T15:00:00+00:00",
+      "sources": [
+        {
+          "name": "Google DeepMind Blog",
+          "type": "official",
+          "title": "Introducing SynthID Bio",
+          "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+          "published": "2026-09-30T15:03:07+00:00"
+        },
+        {
+          "name": "Google Blog",
+          "type": "official",
+          "title": "We’re introducing SynthID Bio, bringing our watermarking technology to synthetic biology.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-bio/",
+          "published": "2026-09-30T15:00:00+00:00"
+        }
+      ],
+      "images": [
+        "https://lh3.googleusercontent.com/wNhpZFcXYLXFb6alIt0H5NRvEoso2ONZDhPKz6MYEcGltHPbDeHddzkvv5GXl3abW1PZ5ci1Y9lKoYOIjMuHLxATXfWp88-Al6eEmDENrpejIFeimw=w1200-h630-n-nu-rw",
+        "https://lh3.googleusercontent.com/wNhpZFcXYLXFb6alIt0H5NRvEoso2ONZDhPKz6MYEcGltHPbDeHddzkvv5GXl3abW1PZ5ci1Y9lKoYOIjMuHLxATXfWp88-Al6eEmDENrpejIFeimw=w528-h297-n-nu-rw-lo",
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/BioSynthID_socialshare.max-600x600.format-webp.webp"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "OpenAI disrupts model-distillation attack, strengthens defenses against hacking",
+      "what_happened": "OpenAI announced it disrupted a coordinated campaign to extract protected model reasoning from its systems through model distillation attacks. The company strengthened its defenses against adversarial distillation techniques.",
+      "status": "confirmed",
+      "why_it_matters": "Shows AI companies are actively fighting attacks designed to steal their most valuable technology—model reasoning and capabilities.",
+      "dev_angle": "If you use API-based models, be aware that companies are defending against theft of their reasoning; architecture theft is a real threat.",
+      "category": "security",
+      "reel_potential": "medium",
+      "hook_idea": "OpenAI just caught someone trying to steal its model's brain.",
+      "published": "2026-09-30T10:30:00+00:00",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "type": "official",
+          "title": "Disrupting a coordinated model-distillation campaign",
+          "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+          "published": "2026-09-30T10:30:00+00:00"
+        }
+      ],
+      "images": [
+        "https://images.ctfassets.net/kftzwdyauwt9/7MP5Bq8wKRpAAnnhqfdA8o/3ca1f00ae7ec16c5a569eb6195e24c90/disrupting-a-coordinated-model-distillation-campaign-seo.png?w=1600&h=900&fit=fill"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "AWS adds PostgreSQL data lake querying without ETL pipelines",
+      "what_happened": "Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data stored in data lakes. Applications can now access data lake data alongside operational data without needing extract, transform, and load pipelines or duplicating data.",
+      "status": "confirmed",
+      "why_it_matters": "Lets teams use existing database tools to work with data lakes, cutting complexity and reducing time to get insights.",
+      "dev_angle": "You can now query data lake files directly from PostgreSQL—no need to build ETL pipelines.",
+      "category": "cloud",
+      "reel_potential": "low",
+      "hook_idea": "PostgreSQL can now talk to your data lake directly.",
+      "published": "2026-09-30T16:00:00+00:00",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "Aurora PostgreSQL now supports querying of Apache Iceberg and Parquet data",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-postgresql-query-apache-iceberg-and-parquet/",
+          "published": "2026-09-30T16:00:00+00:00"
+        }
+      ],
+      "images": [],
+      "videos": []
+    },
+    {
+      "headline": "AMD buys AI world model startup World Labs for $8.2 billion",
+      "what_happened": "AMD agreed to acquire World Labs, a generative AI company focused on world models, for $8.2 billion in stock. Fei-Fei Li, the company's legendary CEO and co-founder, will join AMD as executive vice president and chief scientist.",
+      "status": "confirmed",
+      "why_it_matters": "Major chip maker is betting big on world models—AI systems that understand and simulate how the physical world works—to stay competitive.",
+      "dev_angle": "World model technology may eventually power more advanced AI agents; AMD's bet suggests this is the next major AI frontier.",
+      "category": "business",
+      "reel_potential": "high",
+      "hook_idea": "AMD just spent $8.2B on the AI that learns how the world works.",
+      "published": "2026-09-29T21:14:49+00:00",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "type": "outlet",
+          "title": "AMD acquires AI legend Fei-Fei Li's World Labs for $8.2 billion",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amd-acquires-ai-legend-fei-fei-lis-world-labs-for-usd8-2-billion-imagenet-pioneer-will-become-amd-chief-scientist-as-the-chipmaker-brings-her-lab-in-house",
+          "published": "2026-09-30T09:30:00+00:00"
+        },
+        {
+          "name": "Ars Technica",
+          "type": "outlet",
+          "title": "AMD acquires World Labs AI startup, upping the ante against Nvidia",
+          "url": "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/",
+          "published": "2026-09-29T21:14:49+00:00"
+        }
+      ],
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/sMjQY5HZvxEi2ZLQxPbKbW-2560-80.jpg",
+        "https://cdn.mos.cms.futurecdn.net/sMjQY5HZvxEi2ZLQxPbKbW-1920-80.jpg",
+        "https://cdn.arstechnica.net/wp-content/uploads/2026/09/AMD-World-Labs-1152x648-1790711860.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "Cloudflare adds tools to monetize AI agent access with HTTP 402",
+      "what_happened": "Cloudflare's Monetization Gateway entered public beta, letting API owners charge AI agents for access to tokens, APIs, and tools. Companies like Ceramic.ai, Stocktwits, and others are already using the feature to bill agents for consumption.",
+      "status": "confirmed",
+      "why_it_matters": "For the first time, API owners have a standard way to bill AI agents directly—setting up new business models as agents become the primary way software gets consumed.",
+      "dev_angle": "If you own an API, consider charging AI agents separately from human users—it's now simple to implement.",
+      "category": "business",
+      "reel_potential": "high",
+      "hook_idea": "Your API can now charge AI agents for using it—here's how.",
+      "published": "2026-09-30T13:00:00+00:00",
+      "sources": [
+        {
+          "name": "Cloudflare Blog",
+          "type": "official",
+          "title": "Monetization Gateway beta: charge AI agents for consumption with HTTP 402",
+          "url": "https://blog.cloudflare.com/monetization-gateway-beta/",
+          "published": "2026-09-30T13:00:00+00:00"
+        }
+      ],
+      "images": [
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M3QM86RXS1HJ5FFQFDS9H202.01M3QM87FTT14MEN8NZ2FWWRTP.png",
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M3QKS7979PTKRYVR2CN111JZ.01M3QKS7ZDZ74AXKMWXG7F3C2K.png"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "Pentagon data breach exposes records of 3 million military personnel",
+      "what_happened": "The U.S. Department of Defense notified millions of current and former military personnel that their personal information was stolen in a months-long breach. The Pentagon said it has already secured the source of the leak.",
+      "status": "confirmed",
+      "why_it_matters": "One of the largest breaches of U.S. government personnel data, putting millions of service members and civilian DoD workers at risk.",
+      "dev_angle": "Government infrastructure remains a major target; if you build systems for government, assume breach is a matter of when, not if.",
+      "category": "security",
+      "reel_potential": "high",
+      "hook_idea": "Three million military records just got stolen from the Pentagon.",
+      "published": "2026-09-30T10:30:00+00:00",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "type": "outlet",
+          "title": "Hackers stole millions of US military personnel records during months-long data breach",
+          "url": "https://techcrunch.com/2026/09/30/hackers-stole-millions-of-us-military-personnel-records-during-months-long-data-breach/",
+          "published": "2026-09-30T19:29:08+00:00"
+        },
+        {
+          "name": "Tom's Hardware",
+          "type": "outlet",
+          "title": "Pentagon gets pwned as breach exposes sensitive data on nearly three million military and civilian personnel",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/pentagon-gets-pwned-as-breach-exposes-sensitive-data-on-nearly-three-million-military-and-civilian-personnel-stolen-info-includes-social-security-numbers-and-job-related-records",
+          "published": "2026-09-30T10:30:00+00:00"
+        }
+      ],
+      "images": [
+        "https://techcrunch.com/wp-content/uploads/2026/09/pentagon-dod-2026-2288897667.jpg?resize=1200,869",
+        "https://cdn.mos.cms.futurecdn.net/6vTk3xJGhojSU7NNDcyECo-1920-80.png"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "Cloudflare and partners build infrastructure for AI agents as main internet audience",
+      "what_happened": "Cloudflare announced more than half the traffic reaching sites on its network is now automated, with AI agents as the fastest-growing part. The company released tools for site owners to see who's visiting, decide who gets access, and charge for usage, including container sandboxes that start 6x faster.",
+      "status": "confirmed",
+      "why_it_matters": "The internet is shifting from a human-first to an agent-first ecosystem; infrastructure companies are rebuilding for this reality.",
+      "dev_angle": "Plan your APIs and web services assuming agents—not humans—are your primary users; optimize for machine-friendly access.",
+      "category": "cloud",
+      "reel_potential": "high",
+      "hook_idea": "Half the internet is now AI agents—here's how Cloudflare is building for them.",
+      "published": "2026-09-30T12:58:00+00:00",
+      "sources": [
+        {
+          "name": "Cloudflare Blog",
+          "type": "official",
+          "title": "Cloudflare Containers, rebuilt to scale agent sandboxes",
+          "url": "https://blog.cloudflare.com/faster-agent-sandboxes/",
+          "published": "2026-09-30T12:58:00+00:00"
+        },
+        {
+          "name": "Cloudflare Blog",
+          "type": "official",
+          "title": "The Internet has a second audience",
+          "url": "https://blog.cloudflare.com/agentic-web/",
+          "published": "2026-09-30T12:58:00+00:00"
+        }
+      ],
+      "images": [
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M3S8R4W0018F4ABEE2X1ZH4G.01M3S8R5VDFQC24Z3Q4E6RBE3E.png",
+        "https://blog.cloudflare.com/_emdash/api/media/file/01KW46H9N3ZPBVM99CMTJZRPF3.png",
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M3Q3ZZ59Z3P49M2FX7R7F4WQ.png"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "Cloudflare workers can now send errors to AI coding agents for automatic fixing",
+      "what_happened": "Cloudflare added built-in error monitoring to its Workers platform that groups production failures and sends stack traces, logs, and application context directly to a coding agent, which can then investigate and open a pull request automatically.",
+      "status": "confirmed",
+      "why_it_matters": "Shifts debugging from manual human work to automated agent-driven fixes, potentially cutting time to resolution dramatically.",
+      "dev_angle": "Serverless functions now have AI debugging built in; let agents fix common failures while you focus on architecture.",
+      "category": "dev-tools",
+      "reel_potential": "medium",
+      "hook_idea": "Your code errors now go straight to an AI agent that tries to fix them.",
+      "published": "2026-09-30T13:00:00+00:00",
+      "sources": [
+        {
+          "name": "Cloudflare Blog",
+          "type": "official",
+          "title": "Detect and send production issues straight to your agent",
+          "url": "https://blog.cloudflare.com/real-time-issue-detection/",
+          "published": "2026-09-30T13:00:00+00:00"
+        }
+      ],
+      "images": [
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M3QYSW0604Y8C0PC54P180FT.png",
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M3QYSQZS2E3XN2KS33WWKWGT.png"
+      ],
+      "videos": []
+    }
+  ]
+}
