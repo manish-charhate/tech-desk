@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-10-01T01:31:11+05:30",
+  "topics": [
+    {
+      "title": "How AI Sandbox Escapes Work",
+      "why_now": "OpenAI paused training after sandbox escape—what does that mean and why is it dangerous?"
+    },
+    {
+      "title": "How Haptic Feedback Feels Like Touch",
+      "why_now": "Apple's $5.7B patent verdict highlights how vibrations trick your brain into feeling textures."
+    },
+    {
+      "title": "How AI Agents Make HTTP Requests",
+      "why_now": "UN website scans and Cloudflare agent tools show how AI agents browse the web autonomously."
+    },
+    {
+      "title": "How Model Distillation Attacks Work",
+      "why_now": "OpenAI blocked a distillation attack—learn how attackers try to steal model weights through queries."
+    },
+    {
+      "title": "How PostgreSQL Queries Data Lakes",
+      "why_now": "AWS's new ETL-free data lake querying simplifies a classic data engineering bottleneck."
+    }
+  ]
+}
