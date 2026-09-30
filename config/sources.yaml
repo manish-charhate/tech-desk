@@ -1,0 +1,73 @@
+# News sources for the daily agent.
+#
+# type: official  -> the company/project itself (newsroom, official blog). Treated as primary source.
+#       outlet    -> established tech publication. Good for context, but prefer the official link.
+#
+# Feed URLs change. Run `python -m agent.check_feeds` after editing this file,
+# and whenever the daily run reports failed sources.
+#
+# To add an official YouTube channel, use:
+#   url: https://www.youtube.com/feeds/videos.xml?channel_id=<CHANNEL_ID>
+# (find the channel ID on the channel page: About > Share > Copy channel ID)
+
+sources:
+  # ---- Official: AI ----
+  - name: OpenAI News
+    url: https://openai.com/news/rss.xml
+    type: official
+  - name: Google DeepMind Blog
+    url: https://deepmind.google/blog/rss.xml
+    type: official
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+    type: official
+
+  # ---- Official: big tech ----
+  - name: Google Blog
+    url: https://blog.google/rss/
+    type: official
+  - name: Apple Newsroom
+    url: https://www.apple.com/newsroom/rss-feed.rss
+    type: official
+  - name: Microsoft Official Blog
+    url: https://blogs.microsoft.com/feed/
+    type: official
+  - name: Meta Engineering
+    url: https://engineering.fb.com/feed/
+    type: official
+
+  # ---- Official: hardware / chips ----
+  - name: NVIDIA Newsroom
+    url: https://nvidianews.nvidia.com/releases.xml
+    type: official
+
+  # ---- Official: developer platforms ----
+  - name: GitHub Blog
+    url: https://github.blog/feed/
+    type: official
+  - name: Android Developers Blog
+    url: https://android-developers.googleblog.com/feeds/posts/default
+    type: official
+  - name: AWS What's New
+    url: https://aws.amazon.com/about-aws/whats-new/recent/feed/
+    type: official
+  - name: Cloudflare Blog
+    url: https://blog.cloudflare.com/rss/
+    type: official
+
+  # ---- Established outlets ----
+  - name: The Verge
+    url: https://www.theverge.com/rss/index.xml
+    type: outlet
+  - name: Ars Technica
+    url: https://feeds.arstechnica.com/arstechnica/index
+    type: outlet
+  - name: TechCrunch
+    url: https://techcrunch.com/feed/
+    type: outlet
+  - name: Tom's Hardware
+    url: https://www.tomshardware.com/feeds/all
+    type: outlet
+  - name: Engadget
+    url: https://www.engadget.com/rss.xml
+    type: outlet

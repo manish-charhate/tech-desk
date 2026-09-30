@@ -1,0 +1,56 @@
+name: Research topic
+
+on:
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: "Topic to research (leave empty if using pick)"
+        required: false
+        default: ""
+      pick:
+        description: "Index of a suggested topic, 0-4 (leave empty if using topic)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: repo-writes
+  cancel-in-progress: false
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Research
+        # Inputs are passed through env vars, never pasted into the shell script (prevents injection).
+        run: python -m agent.research --topic "$TOPIC" --pick "$PICK"
+        env:
+          TOPIC: ${{ inputs.topic }}
+          PICK: ${{ inputs.pick }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          RESEARCH_MODEL: ${{ vars.RESEARCH_MODEL }}
+      - name: Save to repo
+        run: |
+          git config user.name "tech-desk-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "research: $(TZ=Asia/Kolkata date +%F)"
+          git pull --rebase && git push
+
+  deploy:
+    needs: research
+    uses: ./.github/workflows/deploy-site.yml

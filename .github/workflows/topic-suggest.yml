@@ -1,0 +1,39 @@
+name: Topic suggestions
+
+on:
+  schedule:
+    - cron: "30 3 * * 3,6"  # Wed and Sat, 03:30 UTC = 09:00 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-writes
+  cancel-in-progress: false
+
+jobs:
+  suggest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Suggest topics and ask on Telegram
+        run: python -m agent.suggest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NEWS_MODEL: ${{ vars.NEWS_MODEL }}
+      - name: Save suggestions
+        run: |
+          git config user.name "tech-desk-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "suggestions: $(TZ=Asia/Kolkata date +%F)"
+          git pull --rebase && git push
