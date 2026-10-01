@@ -1,0 +1,222 @@
+{
+  "topic": "OpenAI Dots — always-on AI agents in ChatGPT",
+  "one_liner": "Dots are OpenAI's new always-on AI agents, powered by GPT-6 Astra, that get their own cloud computer and can keep working on your goals around the clock, across apps and chat platforms, even when you're not there.",
+  "explain_simple": "Imagine a helpful robot assistant that lives inside ChatGPT and never clocks out. You give it a job — like watching your inbox or fixing bugs reported by customers — and it keeps working on it even after you close the app. It has its own little computer in the cloud with a web browser, so it can click around websites and apps just like a person would. You can check in on it, talk to it on Slack or by voice, and it asks for your okay before doing anything risky, like sending money or deleting files.",
+  "explain_engineer": "Dots are persistent agentic sessions built on GPT-6 Astra that run inside a dedicated, sandboxed cloud VM (its own Linux OS and Chrome browser) rather than a stateless chat turn. Each dot retains long-horizon memory/context, can orchestrate sub-agents to split work, and reaches 4,000+ third-party apps via OpenAI's plugin ecosystem and optional local-computer connection. Safety is enforced via layered controls: built-in action rules, user-defined Custom Rules, and a separate 'Auto-review' policy-check system that vets side-effecting actions (e.g., sending an email, making a purchase) against instructions and safety requirements before execution, with read-only 'proactive research' mode used when idle.",
+  "how_it_works": [
+    {
+      "step": "You create a dot",
+      "detail": "Set up happens on ChatGPT desktop app or desktop web (not mobile); you name it, pick an avatar, and connect the apps it needs."
+    },
+    {
+      "step": "It gets a cloud computer",
+      "detail": "Each dot runs its own sandboxed cloud computer with a browser, isolated from your personal device unless you explicitly grant local access."
+    },
+    {
+      "step": "You give it a goal, not a one-off question",
+      "detail": "Instead of a single prompt, you hand it an ongoing responsibility — e.g., 'watch customer feedback and prepare bug fixes' — and define what it can decide alone."
+    },
+    {
+      "step": "It works in the background",
+      "detail": "The dot keeps making progress between conversations, juggling multiple projects, and can even run 'proactive research' using read-only tools when you haven't asked it anything."
+    },
+    {
+      "step": "It checks in across channels",
+      "detail": "You can talk to it in ChatGPT, Slack, Microsoft Teams, or by voice call, and it carries the same context everywhere; texting support is rolling out as a limited beta."
+    },
+    {
+      "step": "Risky actions get reviewed",
+      "detail": "A separate 'Auto-review' system screens planned actions (like sending an email or making a purchase) against your instructions, Custom Rules, and built-in safety requirements before they run."
+    },
+    {
+      "step": "You stay the decision-maker",
+      "detail": "Sensitive steps such as changing a password or transferring money are always handed back to you, and you can pause, redirect, or reset the dot at any time."
+    }
+  ],
+  "analogy": "A dot is like hiring a junior staffer who has their own desk and computer at the office: you give them a project, they go off and work on it using the tools you've given them access to, and they come back with a draft for your approval instead of asking you a question every five minutes. The analogy breaks down because this 'staffer' never sleeps, can be cloned/paused instantly, has no real judgment of its own, and everything it does is bounded by rigid programmatic rules rather than human common sense.",
+  "key_facts": [
+    {
+      "fact": "Dots was announced by OpenAI at its DevDay 2026 event on September 29, 2026, powered by the GPT-6 Astra model.",
+      "source_url": "https://openai.com/index/introducing-dots/",
+      "verified": true
+    },
+    {
+      "fact": "Each dot has its own cloud computer and browser, can connect to more than 4,000 apps through OpenAI's plugin ecosystem, and learns from feedback over time.",
+      "source_url": "https://openai.com/index/introducing-dots/",
+      "verified": true
+    },
+    {
+      "fact": "Dots are rolling out to ChatGPT Pro users (outside the EEA, Switzerland, and the UK) and to Business Premium users in all supported regions; Enterprise, Edu, and Healthcare workspaces can enable a beta, off by default.",
+      "source_url": "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot",
+      "verified": true
+    },
+    {
+      "fact": "When idle, a dot runs 'proactive research' using tools restricted to read-only access — it cannot send messages, change app content, or control a browser or computer in that mode.",
+      "source_url": "https://openai.com/index/introducing-dots/",
+      "verified": true
+    },
+    {
+      "fact": "A separate safety system called Auto-review checks planned actions like sending emails or making purchases against the user's instructions, Custom Rules, and safety requirements before they are allowed to run.",
+      "source_url": "https://openai.com/index/how-we-build-safety-security-and-privacy-into-dots/",
+      "verified": true
+    },
+    {
+      "fact": "Conversations with your dot do not count toward ChatGPT usage limits, but tasks it starts in Codex or ChatGPT Work do count as usual.",
+      "source_url": "https://openai.com/index/introducing-dots/",
+      "verified": true
+    },
+    {
+      "fact": "You cannot currently create or set up a dot from a mobile device or mobile web — setup requires the ChatGPT desktop app or desktop browser.",
+      "source_url": "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot",
+      "verified": true
+    }
+  ],
+  "myths": [
+    {
+      "myth": "Dots act completely autonomously with no human oversight — 'always-on' means unsupervised.",
+      "reality": "OpenAI explicitly built in guardrails: dots follow built-in action rules plus user-set Custom Rules, and a separate Auto-review system must approve risky actions; sensitive steps like changing a password or moving money are always handed back to the user.",
+      "source_url": "https://openai.com/index/how-we-build-safety-security-and-privacy-into-dots/",
+      "verified": true
+    },
+    {
+      "myth": "A dot can read your private files and messages anytime, even when you haven't asked it anything.",
+      "reality": "Background 'proactive research' only uses read-only tools on apps you've already connected and can't send messages, edit app content, or control your browser or computer — it just saves private notes for the dot.",
+      "source_url": "https://openai.com/index/how-we-build-safety-security-and-privacy-into-dots/",
+      "verified": true
+    },
+    {
+      "myth": "Dots is a new foundation model, like a 'GPT-7' or a successor to GPT-6 Astra.",
+      "reality": "Dots is a product/agent framework built on top of the existing GPT-6 Astra model — it is the agent packaging (cloud computer, memory, app access, review system), not a new model itself.",
+      "source_url": "https://openai.com/index/introducing-dots/",
+      "verified": true
+    }
+  ],
+  "visual_ideas": [
+    "Split-screen animation: left side shows a normal ChatGPT chat bubble ending after one reply; right side shows a 'dot' character still working in a little cloud computer window hours later.",
+    "Diagram of a dot's cloud workspace: browser + apps + 'Auto-review' gatekeeper checking an action before it's allowed to fire (mirrors OpenAI's own safety-blog diagrams).",
+    "Timeline/clock animation showing 'proactive research' happening quietly overnight (read-only, dimmed icons) vs. an 'approved action' lighting up green after Auto-review passes it.",
+    "App-icon galaxy (Slack, Gmail, Drive, GitHub, Teams...) all orbiting a central glowing dot character, representing the 4,000+ app plugin ecosystem.",
+    "A simple decision-tree graphic: Dot wants to act → built-in rule? → Custom Rule? → Auto-review check → Allowed / Blocked / Ask user / Hand back to user.",
+    "Before/after desk metaphor: empty desk with a sticky note request vs. a desk with a finished folder of work and a report, representing 'ask vs. responsibility' framing from OpenAI's docs."
+  ],
+  "reel_hooks": [
+    "OpenAI just gave ChatGPT its own computer — and it never logs off.",
+    "What if your AI assistant kept working on your to-do list while you slept?",
+    "Meet 'Dots' — OpenAI's new agents that can browse, click, and even buy things for you."
+  ],
+  "images": [
+    {
+      "url": "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill",
+      "caption": "Glowing multicolor dots wordmark above four colorful plush dot characters on a black background.",
+      "page_url": "https://openai.com/index/introducing-dots/"
+    },
+    {
+      "url": "https://images.ctfassets.net/kftzwdyauwt9/1WtdHCvtywE987LtTjQYIO/9c1832fa214c73adef618f1ee3b66a50/dots-diagram-cropped-0.png?w=3840&q=90&fm=webp",
+      "caption": "Diagram of a dot's cloud workspace: computer, tools, connected apps, and the Auto-review check before actions run.",
+      "page_url": "https://openai.com/index/how-we-build-safety-security-and-privacy-into-dots/"
+    },
+    {
+      "url": "https://images.ctfassets.net/kftzwdyauwt9/1pPcUvssH4pa4MDtftuh94/8cb466fac1128328ec450eef4918d666/dots-diagram-cropped-2.png?w=3840&q=90&fm=webp",
+      "caption": "How 'proactive research' runs as a background, read-only task that produces private notes for the dot.",
+      "page_url": "https://openai.com/index/how-we-build-safety-security-and-privacy-into-dots/"
+    },
+    {
+      "url": "https://images.ctfassets.net/kftzwdyauwt9/19mxO1yEglAvL4X09I7pbA/22c1c32a197f28c9e2b0d4217a62ec18/dots-diagram-cropped-4.png?w=3840&q=90&fm=webp",
+      "caption": "Flowchart of Auto-review allowing or blocking a dot's proposed action.",
+      "page_url": "https://openai.com/index/how-we-build-safety-security-and-privacy-into-dots/"
+    },
+    {
+      "url": "https://images.ctfassets.net/kftzwdyauwt9/1xROyxcQu9wVqdHbbOjetz/4598e195e1e8acb11b66dd7f340fde12/introducing-dots-carousel-feedback.png?w=3840&q=90&fm=webp",
+      "caption": "Example: a pink dot named Iggy preparing an iOS beta checklist fix beside a release workspace.",
+      "page_url": "https://openai.com/index/introducing-dots/"
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://x.com/OpenAI/status/2104984504133918973",
+      "title": "OpenAI (@OpenAI) launch video: 'Introducing dots, powered by GPT-6 Astra'"
+    }
+  ],
+  "papers": [],
+  "sources": [
+    {
+      "title": "Introducing dots",
+      "url": "https://openai.com/index/introducing-dots/",
+      "kind": "official",
+      "verified": true
+    },
+    {
+      "title": "How we build safety, security, and privacy into dots",
+      "url": "https://openai.com/index/how-we-build-safety-security-and-privacy-into-dots/",
+      "kind": "official",
+      "verified": true
+    },
+    {
+      "title": "Getting started with your dot — OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot",
+      "kind": "official",
+      "verified": true
+    },
+    {
+      "title": "OpenAI launches dots, its bubbly agentic avatar",
+      "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+      "kind": "publication",
+      "verified": true
+    },
+    {
+      "title": "OpenAI announces ChatGPT Dots — here's what the new AI agents can do",
+      "url": "https://www.tomsguide.com/ai/openai-gave-chatgpt-a-virtual-computer-to-run-errands-for-you",
+      "kind": "publication",
+      "verified": true
+    },
+    {
+      "title": "Dots are OpenAI's new personal agents and soon you'll be able to control several of them",
+      "url": "https://www.engadget.com/2272230/dots-are-openais-new-personal-agents-and-soon-youll-be-able-to-control-several-of-them/",
+      "kind": "publication",
+      "verified": true
+    },
+    {
+      "title": "OpenAI's Dots are always-on AI agents for work",
+      "url": "https://www.pcworld.com/article/3246780/openais-dots-are-always-on-ai-agents-for-work.html",
+      "kind": "publication",
+      "verified": true
+    },
+    {
+      "title": "OpenAI launches Dots AI agents amid safety questions",
+      "url": "https://www.nbcnews.com/tech/tech-news/openai-launches-dots-ai-agents-safety-questions-rcna600338",
+      "kind": "publication",
+      "verified": true
+    },
+    {
+      "title": "OpenAI debuts 'dots' as industry safety focus shifts to 'What did my AI assistant do now?'",
+      "url": "https://www.axios.com/2026/09/30/openai-dots-ai-agent-safety",
+      "kind": "publication",
+      "verified": true
+    },
+    {
+      "title": "OpenAI DevDay recap: AI lab rolls out Dots agents, Altman and Friar comment on IPO",
+      "url": "https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html",
+      "kind": "publication",
+      "verified": true
+    },
+    {
+      "title": "OpenAI just launched Dots. Here's why they matter for developers.",
+      "url": "https://thenewstack.io/openai-dots-gpt6-agents/",
+      "kind": "publication",
+      "verified": true
+    }
+  ],
+  "open_questions": [
+    "Exact pricing for additional dots or expanded speed/capacity tiers hasn't been published by OpenAI yet — creator should check for updates before stating a price on camera (some third-party blogs mention a '$100/month' figure tied to Pro plan tiers, but this wasn't confirmed on an official OpenAI page).",
+    "Whether/when a public API for dots will be released is unconfirmed — OpenAI's own materials don't mention an API, and third-party trackers report zero public dots API routes as of launch week.",
+    "Full technical detail of the GPT-6 Astra system card (deploymentsafety.openai.com/gpt-6-astra/change-log) was referenced but not fetched in this session — worth a direct check for any additional safety stats before the video airs.",
+    "Specifics of the Australia 'hack' controversy referenced by NBC/Axios around the same launch week were not independently verified in this session and should be fact-checked separately if mentioned in the script."
+  ],
+  "dropped": {
+    "images": 0,
+    "videos": 0
+  },
+  "requested_topic": "What is Open AI dots",
+  "created_at": "2026-10-02T01:13:43+05:30",
+  "model": "claude-sonnet-5"
+}
