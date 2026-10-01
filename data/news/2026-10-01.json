@@ -1,10 +1,10 @@
 {
   "date": "2026-10-01",
-  "generated_at": "2026-10-01T01:21:05+05:30",
+  "generated_at": "2026-10-01T11:48:22+05:30",
   "stats": {
     "sources_checked": 17,
     "failed_sources": [],
-    "candidates": 144
+    "candidates": 43
   },
   "stories": [
     {
@@ -326,6 +326,247 @@
         "https://blog.cloudflare.com/_emdash/api/media/file/01M3QYSW0604Y8C0PC54P180FT.png",
         "https://blog.cloudflare.com/_emdash/api/media/file/01M3QYSQZS2E3XN2KS33WWKWGT.png"
       ],
+      "videos": []
+    },
+    {
+      "headline": "Google launches Gemini 4 Argon, its most powerful AI model yet",
+      "what_happened": "Google announced Gemini 4 Argon, a new frontier AI model designed for complex software engineering, legal and finance work, and cybersecurity. The model is initially available only to trusted cyber defenders, with broader access coming later.",
+      "status": "confirmed",
+      "why_it_matters": "This marks Google's next major step in AI capabilities after Gemini 3.5, competing directly with OpenAI's latest models.",
+      "dev_angle": "Developers working on complex coding, enterprise workflows, and security tools can now apply for access to test Gemini 4 Argon.",
+      "category": "ai",
+      "reel_potential": "high",
+      "hook_idea": "Google just dropped its most powerful AI yet—but you can't use it yet. Here's why.",
+      "published": "2026-09-30T20:00:00+00:00",
+      "sources": [
+        {
+          "name": "Google DeepMind Blog",
+          "type": "official",
+          "title": "Gemini 4 Argon: our next era of frontier intelligence",
+          "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+          "published": "2026-09-30T20:01:45+00:00"
+        },
+        {
+          "name": "Google Blog",
+          "type": "official",
+          "title": "Gemini 4 Argon: our next era of frontier intelligence",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+          "published": "2026-09-30T20:00:00+00:00"
+        },
+        {
+          "name": "TechCrunch",
+          "type": "outlet",
+          "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+          "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+          "published": "2026-09-30T23:43:07+00:00"
+        },
+        {
+          "name": "The Verge",
+          "type": "outlet",
+          "title": "Google announces Gemini 4 and says it’s so capable that only ‘trusted cyber defenders’ can have it right now",
+          "url": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
+          "published": "2026-09-30T20:41:41+00:00"
+        },
+        {
+          "name": "Ars Technica",
+          "type": "outlet",
+          "title": "Google announces Gemini 4 Argon AI model, but you can't use it yet",
+          "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+          "published": "2026-09-30T20:11:08+00:00"
+        }
+      ],
+      "images": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png",
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.max-600x600.format-webp.webp",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK093_Google_02.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+        "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-1-1152x648.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "AWS adds AI-optimized database scaling for agentic workloads",
+      "what_happened": "Amazon Aurora serverless now scales faster, adding up to 16 ACUs per second to reach larger capacities for bursty workloads like AI agents. It scales down to zero when not in use, letting users pay only for what they consume.",
+      "status": "confirmed",
+      "why_it_matters": "As AI agents become more common, databases need to handle sudden spikes in demand. This update makes that automatic and cost-effective.",
+      "dev_angle": "If you're building AI agent applications, Aurora serverless now handles traffic spikes without manual intervention or overpaying.",
+      "category": "cloud",
+      "reel_potential": "medium",
+      "hook_idea": "AWS just made serverless databases way better for AI agents. Here's what changed.",
+      "published": "2026-09-30T17:50:00+00:00",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "Amazon Aurora serverless now scales faster to support agentic AI and other bursty workloads",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-16-acu-scaling/",
+          "published": "2026-09-30T17:50:00+00:00"
+        }
+      ],
+      "images": [],
+      "videos": []
+    },
+    {
+      "headline": "Google's AI model now best at predicting flu hospitalizations",
+      "what_happened": "Google's science AI model ranked first in forecasting flu-related hospital admissions, according to the Centers for Disease Control. The model outperformed other systems at predicting which patients would need hospitalization.",
+      "status": "confirmed",
+      "why_it_matters": "AI is proving it can help hospitals prepare for outbreaks and save lives by predicting demand ahead of time.",
+      "dev_angle": "Developers building healthcare AI can learn from Google's approach to medical prediction and forecasting.",
+      "category": "ai",
+      "reel_potential": "high",
+      "hook_idea": "Google's AI just beat everyone at predicting flu outbreaks. Here's how it works.",
+      "published": "2026-09-30T21:30:00+00:00",
+      "sources": [
+        {
+          "name": "Google Blog",
+          "type": "official",
+          "title": "Google's AI ranks #1 for predicting flu hospitalizations.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-science-ai-flu-forecasts/",
+          "published": "2026-09-30T21:30:00+00:00"
+        }
+      ],
+      "images": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Flusight_socialhero.max-1440x810.png",
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Flusight_socialhero.max-600x600.format-webp.webp"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "AWS adds faster GPU instances for graphics workloads",
+      "what_happened": "Amazon WorkSpaces Core Managed Instances now supports NVIDIA Blackwell GPUs through new Graphics G7 instances. These deliver up to 2.1X better performance than previous G6 instances for CAD, 3D rendering, video editing, and scientific visualization.",
+      "status": "confirmed",
+      "why_it_matters": "Professionals using graphics-heavy software can now get significantly faster performance without upgrading their entire workstation setup.",
+      "dev_angle": "If you're building applications for architects, animators, or engineers, users can now access much more powerful GPUs through AWS.",
+      "category": "hardware",
+      "reel_potential": "medium",
+      "hook_idea": "AWS just put NVIDIA's newest GPUs in the cloud. Here's why that matters for designers.",
+      "published": "2026-09-30T23:59:00+00:00",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "Amazon WorkSpaces Core Managed Instances adds support for NVIDIA Blackwell GPU",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-cmi-g7/",
+          "published": "2026-09-30T23:59:00+00:00"
+        }
+      ],
+      "images": [],
+      "videos": []
+    },
+    {
+      "headline": "Amazon S3 search now returns more complete results with smarter filtering",
+      "what_happened": "Amazon S3 Vectors added metadata pre-filtering that evaluates filters before searching, returning up to 5X more matching vectors. It also added a prefix match operator for filtering paths and URLs, improving results for RAG and AI agent applications.",
+      "status": "confirmed",
+      "why_it_matters": "AI applications that search through large datasets now get better and more complete answers instead of partial results.",
+      "dev_angle": "Developers building RAG systems and AI agents can now use S3 Vectors to get more relevant search results without custom filtering code.",
+      "category": "cloud",
+      "reel_potential": "low",
+      "hook_idea": "AWS just made vector search smarter and way more useful.",
+      "published": "2026-09-30T20:00:00+00:00",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "Amazon S3 Vectors introduces metadata pre-filtering for up to 5x higher recall on filtered search",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/s3-vectors-introduces-metadata-pre-filtering/",
+          "published": "2026-09-30T20:00:00+00:00"
+        }
+      ],
+      "images": [],
+      "videos": []
+    },
+    {
+      "headline": "OpenAI's GPT-6 Astra gets 6X faster mode on AWS",
+      "what_happened": "AWS Bedrock now offers UltraFast mode for OpenAI's GPT-6 Astra, delivering up to 6X faster inference with up to 300 tokens per second. This premium speed tier is aimed at applications where latency matters most.",
+      "status": "confirmed",
+      "why_it_matters": "For time-sensitive AI applications like real-time customer support or instant translations, much faster response times are now available.",
+      "dev_angle": "Developers can integrate GPT-6 Astra's UltraFast mode for applications that need sub-second response times.",
+      "category": "cloud",
+      "reel_potential": "medium",
+      "hook_idea": "OpenAI's latest model just got 6X faster on AWS. What will you build with it?",
+      "published": "2026-09-30T19:00:00+00:00",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "OpenAI GPT-6 Astra now supports UltraFast mode on Amazon Bedrock",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-ultrafast-on-amazon-bedrock/",
+          "published": "2026-09-30T19:00:00+00:00"
+        }
+      ],
+      "images": [],
+      "videos": []
+    },
+    {
+      "headline": "AWS CLI adds tools to keep AI agent skills up to date",
+      "what_happened": "AWS expanded its Agent Toolkit with two new CLI commands: check-skill-updates compares installed skills against latest versions, and update-skill --all updates all outdated skills at once. This makes it easier to maintain AI agent systems.",
+      "status": "confirmed",
+      "why_it_matters": "As companies deploy more AI agents, keeping their components updated becomes critical for security and performance.",
+      "dev_angle": "DevOps teams managing AI agents can now automate skill updates instead of manually tracking versions.",
+      "category": "dev-tools",
+      "reel_potential": "low",
+      "hook_idea": "AWS just made managing AI agent updates way less painful.",
+      "published": "2026-09-30T20:16:00+00:00",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "AWS CLI now supports bulk skill updates and version checks for the Agent Toolkit for AWS",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cli-agent-toolkit-update-skill/",
+          "published": "2026-09-30T20:16:00+00:00"
+        }
+      ],
+      "images": [],
+      "videos": []
+    },
+    {
+      "headline": "Amazon RDS now supports AMD EPYC 5th-gen processors",
+      "what_happened": "Amazon RDS added support for M8a and R8a database instances powered by AMD EPYC 5th-gen processors. R8a instances offer up to 75 Gbps network and 60 Gbps EBS bandwidth, with each vCPU matching a physical CPU core for consistent performance.",
+      "status": "confirmed",
+      "why_it_matters": "Databases get more processing power and bandwidth options, letting companies choose the right hardware for their workload.",
+      "dev_angle": "Database architects can now choose AMD-based instances for better cost efficiency or performance depending on their workload type.",
+      "category": "hardware",
+      "reel_potential": "low",
+      "hook_idea": "AWS just added new processor options to its database service. Here's why you might care.",
+      "published": "2026-09-30T17:00:00+00:00",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "Amazon Aurora and RDS now support AMD-based R8a instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-rds-amd-r8a/",
+          "published": "2026-09-30T17:00:00+00:00"
+        },
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "Amazon RDS now supports AMD-based M8a instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-rds-amd-m8a/",
+          "published": "2026-09-30T17:00:00+00:00"
+        }
+      ],
+      "images": [],
+      "videos": []
+    },
+    {
+      "headline": "Anthropic's Claude models now available in UK region",
+      "what_happened": "Amazon Bedrock expanded support for Anthropic's Claude Opus 5.5 and Claude Sonnet 5 models in the UK (London) region. This allows financial services, healthcare, and public sector customers to run inference in-country while meeting data residency requirements.",
+      "status": "confirmed",
+      "why_it_matters": "Companies in regulated industries can now use advanced AI models without moving data outside their country.",
+      "dev_angle": "Teams in the UK building regulated AI applications can now use Claude models on Bedrock with in-region data processing.",
+      "category": "cloud",
+      "reel_potential": "low",
+      "hook_idea": "Claude AI just became available in the UK with data staying in-country.",
+      "published": "2026-09-30T17:00:00+00:00",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "Amazon Bedrock expands Claude models in-region support in the UK (London)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-region-expansion-lhr/",
+          "published": "2026-09-30T17:00:00+00:00"
+        }
+      ],
+      "images": [],
       "videos": []
     }
   ]
