@@ -1,0 +1,367 @@
+{
+  "date": "2026-10-02",
+  "generated_at": "2026-10-02T10:40:52+05:30",
+  "stats": {
+    "sources_checked": 17,
+    "failed_sources": [],
+    "candidates": 121
+  },
+  "stories": [
+    {
+      "headline": "Google launches satellite for internet from space data centers",
+      "what_happened": "Google's Project Suncatcher prototype satellite is now in orbit. The company believes SpaceX will need to launch Starship about 1,800 times before space data centers become practical for delivering internet.",
+      "status": "confirmed",
+      "why_it_matters": "Google is betting on space-based infrastructure to compete with traditional cloud providers and deliver faster internet globally.",
+      "dev_angle": "Developers may eventually access cloud services with lower latency through space-based data centers.",
+      "category": "hardware",
+      "reel_potential": "high",
+      "hook_idea": "Google just launched a satellite that could change how the internet works forever—but it needs 1,800 more launches first.",
+      "published": "2026-10-01T19:18:03+00:00",
+      "sources": [
+        {
+          "name": "Google Blog",
+          "type": "official",
+          "title": "Our Project Suncatcher prototype satellite is in orbit.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
+          "published": "2026-10-01T23:30:00+00:00"
+        },
+        {
+          "name": "TechCrunch",
+          "type": "outlet",
+          "title": "Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground",
+          "url": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/",
+          "published": "2026-10-01T19:18:03+00:00"
+        }
+      ],
+      "images": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_videos/wagtailvideo-fgyv69rc_thumb.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "AWS launches AI agent to optimize your cloud infrastructure",
+      "what_happened": "AWS announced AWS Well-Architected Agent in preview, an AI service that analyzes and optimizes AWS setups across cost, security, performance, and reliability. It replaces the older AWS Trusted Advisor tool and AWS Well-Architected Tool.",
+      "status": "confirmed",
+      "why_it_matters": "Companies can now use AI to automatically review and improve how they run cloud infrastructure, saving money and preventing security gaps.",
+      "dev_angle": "Developers can use this agent to get real-time recommendations for fixing their cloud setup without manual reviews.",
+      "category": "cloud",
+      "reel_potential": "medium",
+      "hook_idea": "AWS just gave you an AI boss that finds all the ways you're wasting money in the cloud.",
+      "published": "2026-10-01T20:00:00+00:00",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "AWS Well-Architected Agent is now available in preview",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-well-architected-agent/",
+          "published": "2026-10-01T20:00:00+00:00"
+        }
+      ],
+      "images": [],
+      "videos": []
+    },
+    {
+      "headline": "Cloudflare launches OS for AI agents to work inside your company",
+      "what_happened": "Cloudflare OS is a managed workspace where AI agents can access company data and systems. The company opened a waitlist for fully managed deployments launching in a few clicks.",
+      "status": "confirmed",
+      "why_it_matters": "Companies can now easily deploy AI agents that understand how the business works and connect to internal tools and data.",
+      "dev_angle": "Developers can build agents that work within corporate systems without managing complex infrastructure.",
+      "category": "software",
+      "reel_potential": "high",
+      "hook_idea": "Cloudflare just built an operating system for AI agents to live inside your company.",
+      "published": "2026-10-01T13:00:00+00:00",
+      "sources": [
+        {
+          "name": "Cloudflare Blog",
+          "type": "official",
+          "title": "Cloudflare OS: your company’s agent workspace, managed for you",
+          "url": "https://blog.cloudflare.com/managed-cloudflare-os/",
+          "published": "2026-10-01T13:00:00+00:00"
+        }
+      ],
+      "images": [
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M3T6WVW670ZWD2BD8GHM680N.png",
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M3T6WYAVKCKFV4H283DB38WS.png"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "Cloudflare releases open-source decision models for AI agents",
+      "what_happened": "Cloudflare introduced Clef and Clef-flash, open-source decision models for fast classification and agentic workflows, plus a new reinforcement learning platform for developers to fine-tune these models with their own data.",
+      "status": "confirmed",
+      "why_it_matters": "Developers can now build smarter AI agents without relying on expensive commercial models.",
+      "dev_angle": "Developers can fine-tune decision models on their own data to make AI agents work better for specific tasks.",
+      "category": "ai",
+      "reel_potential": "medium",
+      "hook_idea": "Cloudflare just open-sourced the building blocks for AI agents—and let you train them on your own data.",
+      "published": "2026-10-01T15:34:02+00:00",
+      "sources": [
+        {
+          "name": "Cloudflare Blog",
+          "type": "official",
+          "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
+          "url": "https://blog.cloudflare.com/clef-decision-models/",
+          "published": "2026-10-01T15:34:02+00:00"
+        }
+      ],
+      "images": [
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M3TJV43SPQCPKJ6GBXFCDKNE.01M3TJV53VYDMVNCZDPH1FBFYN.png",
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M3TJPKAE7MFBW626XHNC9QVA.png"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "Cloudflare launches serverless event streaming and data platform",
+      "what_happened": "Cloudflare K2 is a serverless event streaming service on top of R2 object storage for high-scale data movement. Cloudflare Basin is now generally available, built on Apache Iceberg and R2, letting developers ingest, manage, and query large datasets without paying data egress fees.",
+      "status": "confirmed",
+      "why_it_matters": "Companies can now move and query massive amounts of data cheaply without the overhead of managing databases or brokers.",
+      "dev_angle": "Developers can build data pipelines that scale automatically without worrying about infrastructure costs or egress charges.",
+      "category": "cloud",
+      "reel_potential": "medium",
+      "hook_idea": "Cloudflare just made it free to move massive datasets around the internet.",
+      "published": "2026-10-01T12:58:00+00:00",
+      "sources": [
+        {
+          "name": "Cloudflare Blog",
+          "type": "official",
+          "title": "Announcing Cloudflare K2: serverless event streams",
+          "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
+          "published": "2026-10-01T13:00:00+00:00"
+        },
+        {
+          "name": "Cloudflare Blog",
+          "type": "official",
+          "title": "Introducing Cloudflare Basin: an open, serverless data platform, now generally available",
+          "url": "https://blog.cloudflare.com/cloudflare-basin/",
+          "published": "2026-10-01T12:58:00+00:00"
+        }
+      ],
+      "images": [
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M3SXWJMRR7ZENPNFNB5QZYPA.jpg",
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M3SXWMA7TC0H6D9G217A3327.png",
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M3TBHN0F85Z2NSDVC4T3HF05.png"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "Hugging Face releases tools for training AI agents at scale",
+      "what_happened": "Hugging Face announced Olmo-core 3, an open and scalable training infrastructure for large mixture-of-experts models, and AutoSynthData, a tool for generating training data for enterprise agents.",
+      "status": "confirmed",
+      "why_it_matters": "Companies can now build and train their own large AI models without depending on closed vendors.",
+      "dev_angle": "Developers can generate synthetic training data and scale up model training using open infrastructure.",
+      "category": "ai",
+      "reel_potential": "medium",
+      "hook_idea": "Hugging Face just made it easier to build and train your own AI models from scratch.",
+      "published": "2026-10-01T15:01:43+00:00",
+      "sources": [
+        {
+          "name": "Hugging Face Blog",
+          "type": "official",
+          "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+          "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+          "published": "2026-10-02T04:01:31+00:00"
+        },
+        {
+          "name": "Hugging Face Blog",
+          "type": "official",
+          "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+          "url": "https://huggingface.co/blog/allenai/olmocore3",
+          "published": "2026-10-01T15:01:43+00:00"
+        }
+      ],
+      "images": [
+        "https://cdn-uploads.huggingface.co/production/uploads/68642da9885da181fde1ad70/8kSzlHLOdu5hchCtPnK8D.png"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "AWS expands security tools with runtime monitoring and remediation",
+      "what_happened": "AWS GuardDuty Runtime Monitoring is now included in Security Hub Threat Analytics. AWS also launched remediation plans that group related security issues by root cause so you fix one thing to resolve multiple exposures at once.",
+      "status": "confirmed",
+      "why_it_matters": "Teams can find and fix security problems faster by addressing the underlying causes instead of treating each issue separately.",
+      "dev_angle": "Developers can integrate automated security fixes into their deployment pipelines.",
+      "category": "security",
+      "reel_potential": "low",
+      "hook_idea": "AWS just gave you a cheat sheet for fixing security problems faster.",
+      "published": "2026-10-01T10:00:00+00:00",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "GuardDuty Runtime Monitoring is now included in the AWS Security Hub Threat Analytics plan",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-security-hub-runtime-monitoring/",
+          "published": "2026-10-02T03:35:00+00:00"
+        },
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "AWS Security Hub introduces remediation plans to prioritize and fix security exposures",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-security-hub-remediation-plans/",
+          "published": "2026-10-01T10:00:00+00:00"
+        }
+      ],
+      "images": [],
+      "videos": []
+    },
+    {
+      "headline": "Google Gemini Live now reads text aloud for accessibility",
+      "what_happened": "Google launched Guided Vision in Gemini Live, a feature that gives real-time audio descriptions of anything you point your camera at. It helps users read small text and describe their surroundings on compatible Android devices.",
+      "status": "confirmed",
+      "why_it_matters": "People with vision problems can now use their phone's camera as an accessibility tool powered by AI.",
+      "dev_angle": "Developers can build apps that describe visual information to help users with accessibility needs.",
+      "category": "ai",
+      "reel_potential": "high",
+      "hook_idea": "Google's AI can now read the fine print for you in real time.",
+      "published": "2026-10-01T16:00:00+00:00",
+      "sources": [
+        {
+          "name": "Google Blog",
+          "type": "official",
+          "title": "Guided Vision in Gemini Live: built for accessibility",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/",
+          "published": "2026-10-01T16:00:00+00:00"
+        },
+        {
+          "name": "The Verge",
+          "type": "outlet",
+          "title": "Google’s new Guided Vision feature can help you read the fine print",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+          "published": "2026-10-01T19:47:51+00:00"
+        }
+      ],
+      "images": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GuidedVision_hero.width-1300.png",
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GuidedVision_hero.max-600x600.format-webp.webp",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK255_Google_Gemini_B_474198.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "Sony brings AI graphics upscaling to standard PlayStation 5",
+      "what_happened": "Sony launched Quick Spectral Super Resolution, a new AI upscaling technology for the regular PS5. The tech improves graphics quality and performance and comes from Sony's Project Amethyst work with AMD. Games like Marvel's Wolverine will support it.",
+      "status": "confirmed",
+      "why_it_matters": "PlayStation 5 owners can now play games with better graphics and smoother performance without buying new hardware.",
+      "dev_angle": "Game developers can use AI upscaling to boost performance on standard hardware without rewriting their code.",
+      "category": "hardware",
+      "reel_potential": "high",
+      "hook_idea": "Sony just made your PS5 look better using AI—without you buying a PS5 Pro.",
+      "published": "2026-10-01T16:53:39+00:00",
+      "sources": [
+        {
+          "name": "Engadget",
+          "type": "outlet",
+          "title": "Sony brings AI upscaling to the base PS5",
+          "url": "https://www.engadget.com/2274744/sony-brings-ai-upscaling-to-the-base-ps5/",
+          "published": "2026-10-01T17:00:21+00:00"
+        },
+        {
+          "name": "The Verge",
+          "type": "outlet",
+          "title": "Sony brings AI graphics upscaling to the regular PS5",
+          "url": "https://www.theverge.com/games/1003549/sony-ps5-quick-spectral-super-resolution-qssr",
+          "published": "2026-10-01T16:53:39+00:00"
+        }
+      ],
+      "images": [
+        "https://www.engadget.com/img/gallery/sony-brings-ai-upscaling-to-the-base-ps5/l-intro-1790873905.jpg",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25072873/110923_new_Playstation_5_Slim_ADiBenedetto_0010.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=RcFYsDKbAIk",
+        "https://www.youtube.com/watch?v=E929-XwrS_Q"
+      ]
+    },
+    {
+      "headline": "OpenAI fires three safety researchers over data handling",
+      "what_happened": "OpenAI parted ways with three safety researchers after an internal investigation found they mishandled sensitive company information and shared it with an external AI safety group.",
+      "status": "confirmed",
+      "why_it_matters": "OpenAI is tightening internal controls on who can access and share sensitive information.",
+      "dev_angle": "Developers working at AI companies should understand strict data handling requirements and company information policies.",
+      "category": "security",
+      "reel_potential": "medium",
+      "hook_idea": "OpenAI just fired three researchers for leaking company secrets to a safety group.",
+      "published": "2026-10-01T18:14:42+00:00",
+      "sources": [
+        {
+          "name": "Engadget",
+          "type": "outlet",
+          "title": "OpenAI fires three employees who allegedly shared info with an external AI safety group",
+          "url": "https://www.engadget.com/2275278/openai-fires-three-employees-who-allegedly-shared-info-with-an-external-ai-safety-group/",
+          "published": "2026-10-01T22:05:43+00:00"
+        },
+        {
+          "name": "TechCrunch",
+          "type": "outlet",
+          "title": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
+          "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+          "published": "2026-10-01T18:14:42+00:00"
+        }
+      ],
+      "images": [
+        "https://www.engadget.com/img/gallery/openai-fires-three-employees-who-allegedly-shared-info-with-an-external-ai-safety-group/l-intro-1790891007.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "AWS adds powerful tools for querying data across regions",
+      "what_happened": "Amazon Redshift now lets you query data lake tables in different AWS regions. AWS also added filtered export for DynamoDB, letting you export only the data you need, and expanded DynamoDB Accelerator to 17 new regions.",
+      "status": "confirmed",
+      "why_it_matters": "Companies with data spread across multiple countries can now query and manage it more easily and cheaply.",
+      "dev_angle": "Developers can build global apps that query data across regions without building custom pipelines.",
+      "category": "cloud",
+      "reel_potential": "low",
+      "hook_idea": "AWS just made it easier to work with data scattered across the world.",
+      "published": "2026-10-01T16:44:00+00:00",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "Amazon Redshift now supports cross-Region queries for your data lake",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-cross-Region-queries-for-data-lake",
+          "published": "2026-10-01T18:41:00+00:00"
+        },
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "Amazon DynamoDB introduces filtered export to Amazon S3",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-introduces-filtered-export/",
+          "published": "2026-10-01T17:00:00+00:00"
+        },
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "Amazon DynamoDB Accelerator (DAX) is now available in additional Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-dynamodb-accelerator/",
+          "published": "2026-10-01T16:44:00+00:00"
+        }
+      ],
+      "images": [],
+      "videos": []
+    },
+    {
+      "headline": "Cloudflare upgrades Workers KV for faster real-time access",
+      "what_happened": "Cloudflare launched Workers KV Instant, delivering sub-2ms latency for reads and 250ms global replication across 300+ edge locations. It eliminates cold-read penalties and keeps the same familiar API.",
+      "status": "confirmed",
+      "why_it_matters": "Developers can now build apps with nearly instant data access from anywhere in the world.",
+      "dev_angle": "Developers can use edge computing for ultra-fast data access without changing their code.",
+      "category": "dev-tools",
+      "reel_potential": "medium",
+      "hook_idea": "Cloudflare just made edge data storage fast enough for real-time apps.",
+      "published": "2026-10-01T13:00:00+00:00",
+      "sources": [
+        {
+          "name": "Cloudflare Blog",
+          "type": "official",
+          "title": "Introducing Workers KV Instant — powered by Quicksilver",
+          "url": "https://blog.cloudflare.com/workers-kv-instant/",
+          "published": "2026-10-01T13:00:00+00:00"
+        }
+      ],
+      "images": [
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M3VEK5CZPP518SSR4GMX7CJ0.01M3VEK5ZY7PD7P6Q6ZA4MGAGS.png",
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M3VEKFJ2MXMCNB0J008305V4.01M3VEKGPXTJDYC3F5AM7MC3FW.png"
+      ],
+      "videos": []
+    }
+  ]
+}
