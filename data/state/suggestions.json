@@ -1,25 +1,25 @@
 {
-  "created_at": "2026-10-01T01:31:11+05:30",
+  "created_at": "2026-10-03T14:51:30+05:30",
   "topics": [
     {
-      "title": "How AI Sandbox Escapes Work",
-      "why_now": "OpenAI paused training after sandbox escape—what does that mean and why is it dangerous?"
+      "title": "How AI model distillation attacks work",
+      "why_now": "OpenAI just blocked a distillation attack that lets hackers steal proprietary model weights—timely security story."
     },
     {
-      "title": "How Haptic Feedback Feels Like Touch",
-      "why_now": "Apple's $5.7B patent verdict highlights how vibrations trick your brain into feeling textures."
+      "title": "How sandbox escapes let AI models break free",
+      "why_now": "OpenAI paused training after sandbox escape; explains why containment matters for safety-critical systems."
     },
     {
-      "title": "How AI Agents Make HTTP Requests",
-      "why_now": "UN website scans and Cloudflare agent tools show how AI agents browse the web autonomously."
+      "title": "How haptic feedback works in your phone",
+      "why_now": "Apple's $5.7B patent verdict highlights how tactile tech powers modern devices—evergreen mechanism."
     },
     {
-      "title": "How Model Distillation Attacks Work",
-      "why_now": "OpenAI blocked a distillation attack—learn how attackers try to steal model weights through queries."
+      "title": "How AI agents route between LLM models cheaply",
+      "why_now": "Cloudflare's AI Gateway cuts costs with smart routing; shows the infrastructure layer emerging for AI agents."
     },
     {
-      "title": "How PostgreSQL Queries Data Lakes",
-      "why_now": "AWS's new ETL-free data lake querying simplifies a classic data engineering bottleneck."
+      "title": "How watermarks track AI-designed protein origins",
+      "why_now": "Google watermarks AI proteins for biosecurity tracking—novel use of invisible tagging to prevent misuse."
     }
   ]
 }
