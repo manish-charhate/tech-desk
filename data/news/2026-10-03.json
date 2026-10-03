@@ -1,0 +1,363 @@
+{
+  "date": "2026-10-03",
+  "generated_at": "2026-10-03T11:03:36+05:30",
+  "stats": {
+    "sources_checked": 17,
+    "failed_sources": [],
+    "candidates": 104
+  },
+  "stories": [
+    {
+      "headline": "Apple limits Mac disk access to protect against AI agent risks",
+      "what_happened": "Apple is adding new controls to macOS Full Disk Access permission, restricting what AI agents can do. The move responds to risks posed by increasingly capable AI agents that could access users' files, messages, mail, and browsing history. Apple says the new limits will ensure users can only grant this level of access when they genuinely intend to.",
+      "status": "confirmed",
+      "why_it_matters": "As AI agents become more powerful, your personal data needs better protection. This change makes it harder for compromised or malicious agents to steal your private files.",
+      "dev_angle": "If you're building AI agents for macOS, you'll need to request Full Disk Access more carefully and users will see stricter prompts.",
+      "category": "security",
+      "reel_potential": "high",
+      "hook_idea": "Apple just made it way harder for AI agents to spy on your Mac—here's what changed.",
+      "published": "2026-10-02T18:11:27+00:00",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "type": "outlet",
+          "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+          "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+          "published": "2026-10-02T23:03:16+00:00"
+        },
+        {
+          "name": "The Verge",
+          "type": "outlet",
+          "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+          "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+          "published": "2026-10-02T20:08:40+00:00"
+        },
+        {
+          "name": "Engadget",
+          "type": "outlet",
+          "title": "Apple sounds the alarm on AI agents and 'Full Disk Access'",
+          "url": "https://www.engadget.com/2276186/apple-sounds-the-alarm-on-ai-agents-and-full-disk-access/",
+          "published": "2026-10-02T19:22:06+00:00"
+        },
+        {
+          "name": "TechCrunch",
+          "type": "outlet",
+          "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+          "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+          "published": "2026-10-02T18:11:27+00:00"
+        }
+      ],
+      "images": [
+        "https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-1152x648.jpg",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268759_Mac_Mini_AKrales_0079.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+        "https://www.engadget.com/img/gallery/apple-sounds-the-alarm-on-ai-agents-and-full-disk-access/l-intro-1790968835.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "Meta open-sources Muse AI agent code for developers to build custom gadgets",
+      "what_happened": "Meta has released the code for its Muse AI agent platform as open source, letting developers build their own Muse-powered gadgets. The company suggests projects like loading Muse on E Ink displays for reminders, HDMI sticks, or other hardware. Meta also released its own smart home device called Muse Home Link.",
+      "status": "confirmed",
+      "why_it_matters": "This democratizes AI agent hardware. Instead of waiting for big tech to build devices, builders can now create Muse-powered gadgets tailored to their needs.",
+      "dev_angle": "You can now integrate Muse into any hardware project using Meta's open-source code, expanding AI agent use beyond phones and computers.",
+      "category": "ai",
+      "reel_potential": "high",
+      "hook_idea": "Meta just gave away the blueprint for building AI agents into anything—here's what developers are making.",
+      "published": "2026-10-02T20:27:14+00:00",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "type": "outlet",
+          "title": "Meta wants your next gadget to be Muse-infused",
+          "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+          "published": "2026-10-03T00:45:39+00:00"
+        },
+        {
+          "name": "The Verge",
+          "type": "outlet",
+          "title": "Meta open sources code to let you make Muse AI gadgets",
+          "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+          "published": "2026-10-02T21:08:37+00:00"
+        },
+        {
+          "name": "Engadget",
+          "type": "outlet",
+          "title": "Meta wants people to build their own Muse gadgets, too",
+          "url": "https://www.engadget.com/2276312/meta-muse-gadgets-open-source-smart-home-link/",
+          "published": "2026-10-02T20:27:14+00:00"
+        }
+      ],
+      "images": [
+        "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-muse-charm-getty.jpg?resize=1200,800",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_B.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+        "https://www.engadget.com/img/gallery/meta-wants-people-to-build-their-own-gadgets-for-muse-too/l-intro-1790972593.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "OpenAI launches Dots, a business-focused AI agent platform",
+      "what_happened": "OpenAI announced Dots, a new agent platform designed for enterprise use. Unlike Meta's consumer-friendly Muse, Dots is positioned as workplace software with a starting price of $100 per month. Users can create customized Dot characters to handle business tasks.",
+      "status": "confirmed",
+      "why_it_matters": "AI agents are moving from consumer fun into serious workplace tools. Companies now have competing options from both OpenAI and Meta for automating business tasks.",
+      "dev_angle": "OpenAI is building a paid platform for AI agents in enterprise, giving developers a commercial model to build agent apps on top of their API.",
+      "category": "ai",
+      "reel_potential": "medium",
+      "hook_idea": "OpenAI's new AI agent costs $100 a month—here's what it does that Meta's free version doesn't.",
+      "published": "2026-10-02T15:47:05+00:00",
+      "sources": [
+        {
+          "name": "The Verge",
+          "type": "outlet",
+          "title": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+          "published": "2026-10-02T18:00:00+00:00"
+        },
+        {
+          "name": "The Verge",
+          "type": "outlet",
+          "title": "Dots get up in Muse’s business",
+          "url": "https://www.theverge.com/podcast/1004059/openai-dots-kindle-homepad-cybercab-vergecast",
+          "published": "2026-10-02T15:47:05+00:00"
+        }
+      ],
+      "images": [
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DSC04281_processed.jpg?quality=90&strip=all&crop=0%2C10.723165084465%2C100%2C78.55366983107&w=1200",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DSC04281_processed.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/VRG_VST_100227_Site.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "Cloudflare launches Web Search API and eight observability updates",
+      "what_happened": "Cloudflare's AI Gateway now supports native web search API integration with partners Ceramic.ai, Exa, and Linkup, letting developers inject real-time web results into AI model calls. The company also launched eight major observability updates including Traces, which show how requests move through Cloudflare's entire platform and your infrastructure.",
+      "status": "confirmed",
+      "why_it_matters": "AI models can now access live internet data without extra steps. Better observability helps developers debug and optimize their infrastructure at scale.",
+      "dev_angle": "You can now add real-time web search to AI inference calls via REST APIs or Workers bindings, and trace requests across your entire stack.",
+      "category": "dev-tools",
+      "reel_potential": "medium",
+      "hook_idea": "Cloudflare just made it easier to give your AI model internet access and see exactly what's happening in your infrastructure.",
+      "published": "2026-10-02T13:00:00+00:00",
+      "sources": [
+        {
+          "name": "Cloudflare Blog",
+          "type": "official",
+          "title": "Introducing Web Search API via AI Gateway",
+          "url": "https://blog.cloudflare.com/introducing-web-search-api/",
+          "published": "2026-10-02T13:28:10+00:00"
+        },
+        {
+          "name": "Cloudflare Blog",
+          "type": "official",
+          "title": "8 major updates to Cloudflare Observability",
+          "url": "https://blog.cloudflare.com/one-observability-platform/",
+          "published": "2026-10-02T13:00:00+00:00"
+        },
+        {
+          "name": "Cloudflare Blog",
+          "type": "official",
+          "title": "Introducing Cloudflare Traces: follow requests through our entire platform",
+          "url": "https://blog.cloudflare.com/cloudflare-tracing/",
+          "published": "2026-10-02T13:00:00+00:00"
+        }
+      ],
+      "images": [
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M3XMD1R3RKTSPGW4TNF59S9D.01M3XMD2FKJAHHSQP0E10VYFXD.png",
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M3XMA3KN5CDQCSF0YHZ0WFBH.01M3XMA452ZT41JBXKRPY1HH3F.png",
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M3XHE6D45CDHQVM71QYA6EEJ.01M3XHE6YHC44V1DZB0VG3DCGV.png",
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M3XE9TZRDPWVKPPQNAVJDCYT.01M3XE9W5HREEF8Q70M7G034M2.png"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "AWS expands infrastructure for AI agents with regional availability",
+      "what_happened": "AWS MCP Server, part of the Agent Toolkit for AWS, is now available in six additional regions: Singapore, Sydney, Tokyo, Ireland, London, and US West Oregon. AWS also upgraded AgentCore Gateway to support private TLS certificates for VPC endpoints, allowing secure connections to private infrastructure without intermediate load balancers.",
+      "status": "confirmed",
+      "why_it_matters": "More regions mean AI agents can run closer to your data and users, reducing latency. Private certificate support makes it safer to connect agents to internal systems.",
+      "dev_angle": "AI coding agents now have global reach with MCP Server, and you can securely connect them to private VPC endpoints using your own certificate authorities.",
+      "category": "cloud",
+      "reel_potential": "low",
+      "hook_idea": "AWS just made it easier to run AI agents globally and connect them safely to your private infrastructure.",
+      "published": "2026-10-02T08:00:00+00:00",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "The AWS MCP Server is now available in six additional AWS Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-mcp-server-six-additional-regions/",
+          "published": "2026-10-02T08:00:00+00:00"
+        },
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "AgentCore Gateway supports private TLS certificates for VPC endpoints",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-gateway-private-tls-vpc/",
+          "published": "2026-10-02T08:00:00+00:00"
+        }
+      ],
+      "images": [],
+      "videos": []
+    },
+    {
+      "headline": "NVIDIA releases 64GB DGX Spark for local AI development",
+      "what_happened": "NVIDIA introduced a 64GB version of its DGX Spark local AI workstation, starting at $4,999. The device is designed to run the growing selection of capable open-source AI models that now fit on smaller hardware, giving developers more options for building AI locally without cloud costs.",
+      "status": "confirmed",
+      "why_it_matters": "As AI models shrink, you can now build and test locally without paying for cloud compute. This cuts development costs and keeps your data on your machine.",
+      "dev_angle": "Developers can run sophisticated open-source AI models locally on DGX Spark 64GB, avoiding cloud API costs and latency during development.",
+      "category": "hardware",
+      "reel_potential": "medium",
+      "hook_idea": "NVIDIA's new $5,000 AI machine lets you build with large models locally—no cloud fees required.",
+      "published": "2026-10-02T13:00:00+00:00",
+      "sources": [
+        {
+          "name": "NVIDIA Newsroom",
+          "type": "official",
+          "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+          "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+          "published": "2026-10-02T13:00:39+00:00"
+        },
+        {
+          "name": "Tom's Hardware",
+          "type": "outlet",
+          "title": "Nvidia introduces 64GB DGX Spark to throw local AI fans a lifeline amid the RAMpocalypse",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less",
+          "published": "2026-10-02T13:00:00+00:00"
+        }
+      ],
+      "images": [
+        "https://blogs.nvidia.com/wp-content/uploads/2026/10/nv-blog-1280x680-1.jpg",
+        "https://iprsoftwaremedia.com/219/files/202503/67d2d7233d6332977ae163b9_nv-blog-1280x680-1-842x450/nv-blog-1280x680-1-842x450_thmb.jpg?v=a123af9d-8d9d-4a99-91d8-2cf5361f2445",
+        "https://cdn.mos.cms.futurecdn.net/D4D8sJFKUe4PFUpqUAPSfB-1920-80.jpg"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=MehBUQtb9qM"
+      ]
+    },
+    {
+      "headline": "Amazon and Synopsys partner to accelerate AI chip design",
+      "what_happened": "Amazon and Synopsys signed a multi-year deal worth over $1 billion. Amazon will license Synopsys' chip designs and design tools to create and optimize new AI chips. Synopsys will use Amazon Bedrock to build AI agents and adopt AWS computing and storage services to optimize tools for Amazon hardware.",
+      "status": "confirmed",
+      "why_it_matters": "Big tech companies are taking chip design in-house to compete with NVIDIA. This partnership accelerates that shift by combining Amazon's resources with Synopsys' expertise.",
+      "dev_angle": "AWS is building its own AI chips optimized for Bedrock workloads, which could offer cost and performance advantages over third-party chips.",
+      "category": "chips",
+      "reel_potential": "low",
+      "hook_idea": "Amazon and Synopsys just signed a $1B deal to build AI chips faster—here's why that matters.",
+      "published": "2026-10-02T13:50:00+00:00",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "type": "outlet",
+          "title": "Amazon and Synopsys ink multi-year billion-dollar deal in multi-year IP agreement to accelerate AI chip design efforts",
+          "url": "https://www.tomshardware.com/tech-industry/amazon-and-synopsys-ink-multi-year-billion-dollar-deal-in-multi-year-ip-agreement-to-accelerate-ai-chip-design-efforts-synopsys-to-adopt-amazon-bedrock-to-deploy-ai-agents-harnessing-aws-compute-and-storage-capabilities",
+          "published": "2026-10-02T13:50:00+00:00"
+        }
+      ],
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/yobatAEjDQzCaExZNuCuof-1920-80.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "Sony brings AI upscaling to standard PlayStation 5 console",
+      "what_happened": "Sony has brought its AI-powered upscaling technology to the base PS5 model. The feature lets developers improve image quality and stability without demanding more powerful hardware, offering a new way to optimize games on existing consoles.",
+      "status": "confirmed",
+      "why_it_matters": "Game developers can now use AI to make PS5 games look better without expensive hardware upgrades. This extends the life of current-generation consoles.",
+      "dev_angle": "PS5 developers can now use AI upscaling to trade lower-resolution rendering for better visual quality, freeing GPU resources for other effects.",
+      "category": "hardware",
+      "reel_potential": "medium",
+      "hook_idea": "Sony just gave PS5 games an AI upgrade that makes them look sharper without needing more power.",
+      "published": "2026-10-02T14:10:00+00:00",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "type": "outlet",
+          "title": "Sony brings AI-powered upscaling to the standard PS5",
+          "url": "https://www.tomshardware.com/video-games/console-gaming/sony-brings-ai-powered-upscaling-to-the-standard-ps5-new-qssr-technology-to-deliver-a-taste-of-the-ps5-pro-experience-streamlined-neural-network-tech-built-with-amd",
+          "published": "2026-10-02T14:10:00+00:00"
+        }
+      ],
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/nd79YEyZjKpereVXCPBBMD-2486-80.png",
+        "https://cdn.mos.cms.futurecdn.net/nd79YEyZjKpereVXCPBBMD-1920-80.png"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=E929-XwrS_Q"
+      ]
+    },
+    {
+      "headline": "US arrests tech CEO for smuggling $300M in NVIDIA chips to China",
+      "what_happened": "US authorities arrested a California tech CEO accused of smuggling more than $300 million worth of export-controlled NVIDIA servers to China through Malaysia and Singapore using false paperwork. The arrest is part of ongoing enforcement against illegal chip exports.",
+      "status": "confirmed",
+      "why_it_matters": "NVIDIA chip export controls are being enforced aggressively. This shows governments are serious about preventing advanced AI chips from reaching restricted countries.",
+      "dev_angle": "If you're building AI infrastructure, understand that exporting hardware is heavily regulated. Use only authorized channels and comply with export laws.",
+      "category": "chips",
+      "reel_potential": "medium",
+      "hook_idea": "A tech CEO just got arrested for sneaking $300M in NVIDIA AI chips to China—here's the crackdown.",
+      "published": "2026-10-02T14:53:41+00:00",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "type": "outlet",
+          "title": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
+          "url": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/",
+          "published": "2026-10-02T18:39:36+00:00"
+        },
+        {
+          "name": "Tom's Hardware",
+          "type": "outlet",
+          "title": "California tech CEO arrested, faces up to 20 years in prison for smuggling $300 million in Nvidia AI servers to China",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/california-tech-ceo-arrested-faces-up-to-20-years-in-prison-for-smuggling-usd300-million-in-nvidia-ai-servers-to-china-federal-prosecutors-say-chips-were-routed-through-malaysia-and-singapore-using-false-paperwork",
+          "published": "2026-10-02T14:53:41+00:00"
+        }
+      ],
+      "images": [
+        "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1258977050-2-1024x648.jpg",
+        "https://cdn.mos.cms.futurecdn.net/ZAPHkGJKVZQSB6dodho4D7-1920-80.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "Amazon Aurora DSQL adds partial indexes to cut storage and boost speed",
+      "what_happened": "Amazon Aurora DSQL now supports partial indexes, letting developers index only a specific subset of table rows using a WHERE clause. This improves query performance and lowers storage costs, especially for tables with small working sets and large historical data.",
+      "status": "confirmed",
+      "why_it_matters": "If you manage large databases with mostly inactive data, partial indexes can cut costs and speed up queries on the active rows you care about.",
+      "dev_angle": "You can now add WHERE clauses to CREATE INDEX in Aurora DSQL, indexing only relevant rows and keeping indexes small as tables grow.",
+      "category": "cloud",
+      "reel_potential": "low",
+      "hook_idea": "Amazon's database just got smarter about what to index—saving you money on storage and query time.",
+      "published": "2026-10-02T17:30:00+00:00",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "Amazon Aurora DSQL now supports partial indexes",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
+          "published": "2026-10-02T17:30:00+00:00"
+        }
+      ],
+      "images": [],
+      "videos": []
+    },
+    {
+      "headline": "Amazon ECS now supports blue/green and canary deployments with VPC Lattice",
+      "what_happened": "Amazon ECS added native support for blue/green, linear, and canary deployment strategies for services using Amazon VPC Lattice. Applications can now shift traffic during updates natively from ECS when using VPC Lattice for service-to-service communication.",
+      "status": "confirmed",
+      "why_it_matters": "Safer deployments mean fewer production outages. These deployment patterns let you test updates gradually before rolling to all users.",
+      "dev_angle": "ECS developers using VPC Lattice can now manage traffic shifting for deployments without custom code, reducing deployment risk.",
+      "category": "cloud",
+      "reel_potential": "low",
+      "hook_idea": "AWS made it safer to roll out ECS updates by automating traffic shifts during deployments.",
+      "published": "2026-10-02T20:18:00+00:00",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments",
+          "published": "2026-10-02T20:18:00+00:00"
+        }
+      ],
+      "images": [],
+      "videos": []
+    }
+  ]
+}
