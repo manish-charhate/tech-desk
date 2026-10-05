@@ -1,0 +1,244 @@
+{
+  "date": "2026-10-05",
+  "generated_at": "2026-10-05T11:30:59+05:30",
+  "stats": {
+    "sources_checked": 17,
+    "failed_sources": [],
+    "candidates": 52
+  },
+  "stories": [
+    {
+      "headline": "ChatGPT-6 Astra decodes 217-year-old Napoleonic cipher in six hours",
+      "what_happened": "An AI engineer used GPT-6 Astra to read a 217-year-old Napoleonic cipher that had not been decrypted since the Napoleonic Wars. The task was completed in just six hours using a single image and prompt.",
+      "status": "confirmed",
+      "why_it_matters": "AI can now solve historical puzzles and complex codes faster than human experts ever could.",
+      "dev_angle": "LLMs can tackle specialized decryption tasks with minimal setup—shows real-world utility beyond chat.",
+      "category": "ai",
+      "reel_potential": "high",
+      "hook_idea": "This 217-year-old code has been unreadable for two centuries. ChatGPT cracked it in six hours.",
+      "published": "2026-10-04T13:08:46+00:00",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "type": "outlet",
+          "title": "ChatGPT-6 Astra cracks 217-year-old Napoleonic code in just six hours",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chatgpt-6-astra-cracks-217-year-old-napoleonic-code-in-just-six-hours-single-prompt-ai-run-solves-24-rows-of-custom-symbols-from-a-single-image-reveals-lost-troop-orders",
+          "published": "2026-10-04T13:08:46+00:00"
+        }
+      ],
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/7NDTHseunp2EUkVBhZHe5Q-1920-80.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "Iranian hacker extradited to US after stealing 31TB from universities and companies",
+      "what_happened": "An Iranian-Turkish national was extradited from Montenegro to the U.S. over his alleged role in a state-backed hacking campaign that targeted hundreds of universities, companies, and government agencies across multiple years.",
+      "status": "confirmed",
+      "why_it_matters": "Major cyber criminals are being caught and prosecuted, even across borders, showing that nation-state hacking carries real legal consequences.",
+      "dev_angle": "Security teams need to log and monitor access—attackers targeting data at scale can still be traced and caught.",
+      "category": "security",
+      "reel_potential": "medium",
+      "hook_idea": "This hacker stole 31 terabytes of data from universities and companies. Now he's facing US justice.",
+      "published": "2026-10-04T12:55:00+00:00",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "type": "outlet",
+          "title": "Iranian national extradited to US over alleged $3.4 billion state-backed hacking campaign in rare legal win for law enforcement",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/iranian-national-extradited-to-us-over-alleged-usd3-4-billion-state-backed-hacking-campaign-in-rare-legal-win-for-law-enforcement-operative-helped-steal-31-terabytes-of-data-from-over-300-universities",
+          "published": "2026-10-04T12:55:00+00:00"
+        }
+      ],
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/3JTt8RPcbk6em5GveahXac-2560-80.jpg",
+        "https://cdn.mos.cms.futurecdn.net/3JTt8RPcbk6em5GveahXac-1920-80.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "RTX 5090 power connectors overheat—modder creates custom fix",
+      "what_happened": "The RTX 5090 graphics card has power connector overheating issues. A Reddit user shared a custom distributor module that can be screwed onto the back of the GPU to address the problem.",
+      "status": "confirmed",
+      "why_it_matters": "High-end GPUs are having reliability issues at launch, forcing users to engineer their own solutions to avoid hardware failure.",
+      "dev_angle": "GPU developers need to test power delivery under sustained loads—overheating connectors can kill cards during long compute jobs.",
+      "category": "hardware",
+      "reel_potential": "medium",
+      "hook_idea": "NVIDIA's flagship GPU is melting its own power connector. Here's what one gamer did to fix it.",
+      "published": "2026-10-04T14:50:00+00:00",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "type": "outlet",
+          "title": "Modder 'fixes' melting RTX 5090 power connectors with custom distributor",
+          "url": "https://www.tomshardware.com/pc-components/gpus/modder-fixes-melting-rtx-5090-power-connectors-with-custom-distributor-dual-8-pin-mod-peaks-at-just-40c-during-a-48-hour-550w-stress-test",
+          "published": "2026-10-04T14:50:00+00:00"
+        }
+      ],
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/zSDbAK6zJvGgD5vmjfWw3m-2560-80.jpg",
+        "https://cdn.mos.cms.futurecdn.net/zSDbAK6zJvGgD5vmjfWw3m-1920-80.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "Microsoft camouflages data centers in nature with landscaping at 20-plus sites",
+      "what_happened": "Microsoft is adding nature-inspired landscaping—including wetlands and native gardens—to more than 20 of its data center sites to blend them into their surroundings.",
+      "status": "confirmed",
+      "why_it_matters": "Tech giants are facing community pushback over data center sprawl and environmental impact, prompting them to hide infrastructure in plain sight.",
+      "dev_angle": "Cloud infrastructure is visible and contested—companies are investing in land management to ease local opposition.",
+      "category": "cloud",
+      "reel_potential": "medium",
+      "hook_idea": "Microsoft is hiding its massive data centers by disguising them as nature. Here's why.",
+      "published": "2026-10-04T12:30:00+00:00",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "type": "outlet",
+          "title": "Microsoft using wetlands and native gardens to 'camouflage' 20-plus data center sites by blending them into nature",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/microsoft-is-using-wetlands-and-native-gardens-to-camouflage-20-plus-data-center-sites-by-blending-them-into-nature-critics-blast-the-biomimicry-effort-as-lipstick-on-a-pig-amid-a-20-year-gas-power-deal",
+          "published": "2026-10-04T12:30:00+00:00"
+        }
+      ],
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/QFQkcyyBGELQpZQnSjmAD8-1080-80.jpg",
+        "https://cdn.mos.cms.futurecdn.net/QFQkcyyBGELQpZQnSjmAD8-1920-80.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "Google shows off conveyor-belt keyboard that brings keys to your fingers",
+      "what_happened": "Google Japan unveiled a keyboard with moving keys that automatically position themselves to match where your fingers are, so you do not have to move your hands or arms. The design is not for sale, but is open-source for anyone to build.",
+      "status": "confirmed",
+      "why_it_matters": "Ergonomic input is being rethought with motorized hardware that adapts to your hands instead of you adapting to fixed layouts.",
+      "dev_angle": "Novel input devices can reduce repetitive strain—hardware engineers are exploring motorized solutions for ergonomics.",
+      "category": "hardware",
+      "reel_potential": "high",
+      "hook_idea": "This keyboard's keys move to meet your fingers. No more stretching or awkward hand positions.",
+      "published": "2026-10-04T11:40:00+00:00",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "type": "outlet",
+          "title": "Google Japan shows off wild conveyor-belt keyboard with keys that move to your fingers",
+          "url": "https://www.tomshardware.com/peripherals/keyboards/google-japan-shows-off-wild-conveyor-belt-keyboard-with-keys-that-move-to-your-fingers-3d-printable-gboard-features-four-belts-with-29-keys-each-built-to-make-one-hand-typing-easier",
+          "published": "2026-10-04T11:40:00+00:00"
+        }
+      ],
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/u8gQ2JC3mCmyfLNEcSpTS6-1920-80.png"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=DAn34l_YrUM",
+        "https://www.youtube.com/watch?v=u5AYb778pwA",
+        "https://www.youtube.com/watch?v=5LI1PysAlkU"
+      ]
+    },
+    {
+      "headline": "Fitbit Edge tracker leaks—appears to sit between Charge and Pixel Watch",
+      "what_happened": "Images of Google's rumored Fitbit Edge fitness tracker have leaked. The device appears to be a successor to the midrange Charge line, positioned between the Pixel Watch and other fitness trackers.",
+      "status": "leak",
+      "why_it_matters": "Google is filling gaps in its wearables lineup to compete across fitness and smartwatch price tiers.",
+      "dev_angle": "Wearable APIs need to support midrange trackers—not all health integrations require flagship smartwatch hardware.",
+      "category": "mobile",
+      "reel_potential": "low",
+      "hook_idea": "Google is quietly building a fitness tracker that sits right between its budget and premium options.",
+      "published": "2026-10-04T21:02:09+00:00",
+      "sources": [
+        {
+          "name": "The Verge",
+          "type": "outlet",
+          "title": "The new Fitbit Edge leaks",
+          "url": "https://www.theverge.com/gadgets/1004616/the-new-fitbit-edge-leaks",
+          "published": "2026-10-04T21:02:09+00:00"
+        }
+      ],
+      "images": [
+        "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24438538/Fitbit_STK151_01.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24438538/Fitbit_STK151_01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "OLED MacBook Pro with touchscreen reportedly 'significantly lighter'",
+      "what_happened": "The upcoming high-end MacBook Pro with a touchscreen OLED display is expected to be significantly lighter than current models and is still on track to launch by next month.",
+      "status": "rumour",
+      "why_it_matters": "MacBooks are getting thinner and more feature-rich, making portable workstations lighter without sacrificing performance.",
+      "dev_angle": "Developers can expect better battery life and portability for resource-intensive work—good news for teams working remotely.",
+      "category": "hardware",
+      "reel_potential": "medium",
+      "hook_idea": "Apple's next MacBook Pro is dropping weight and adding a touchscreen. Here's what we know.",
+      "published": "2026-10-04T19:27:15+00:00",
+      "sources": [
+        {
+          "name": "Engadget",
+          "type": "outlet",
+          "title": "The upcoming touchscreen OLED MacBook Pro is reportedly 'significantly lighter'",
+          "url": "https://www.engadget.com/2276786/the-upcoming-touchscreen-oled-macbook-pro-is-reportedly-significantly-lighter/",
+          "published": "2026-10-04T19:27:15+00:00"
+        }
+      ],
+      "images": [
+        "https://www.engadget.com/img/gallery/the-upcoming-touchscreen-oled-macbook-pro-is-reportedly-significantly-lighter/l-intro-1791141971.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "Trump administration creates 'Super Intelligence Force' with dedicated AI czar",
+      "what_happened": "The Trump administration announced a newly created task force called the Super Intelligence Force with a designated AI czar in charge. This is the administration's latest response to the debate over AI safety and regulation.",
+      "status": "confirmed",
+      "why_it_matters": "Government is now formally organizing around AI policy and safety—signaling that AI is a strategic priority at the federal level.",
+      "dev_angle": "Developers should expect new AI regulations and oversight from federal task forces—keep an eye on policy changes.",
+      "category": "ai",
+      "reel_potential": "low",
+      "hook_idea": "The US government just created a brand new position: AI czar. Here's what the Super Intelligence Force actually does.",
+      "published": "2026-10-04T15:15:10+00:00",
+      "sources": [
+        {
+          "name": "Engadget",
+          "type": "outlet",
+          "title": "Trump announces an AI czar for his newly created 'Super Intelligence Force'",
+          "url": "https://www.engadget.com/2276762/trump-announces-an-ai-czar-for-his-newly-created-super-intelligence-force/",
+          "published": "2026-10-04T16:29:26+00:00"
+        },
+        {
+          "name": "TechCrunch",
+          "type": "outlet",
+          "title": "Trump unveils his new Super Intelligence Force",
+          "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+          "published": "2026-10-04T15:15:10+00:00"
+        }
+      ],
+      "images": [
+        "https://www.engadget.com/img/gallery/trump-announced-an-ai-czar-for-his-newly-created-super-intelligence-force/l-intro-1791131077.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "Free browser game made with AI hits 1.2 million players in three days",
+      "what_happened": "Developers AICodeWith created a free browser-based game called Taipei GTA using AI generation. The game reached 1.2 million concurrent players within three days of launch and cost approximately $10,000 in LLM tokens to build.",
+      "status": "confirmed",
+      "why_it_matters": "AI tools are lowering the barrier to game development—a full game can now be built in days with modest token costs.",
+      "dev_angle": "Game engines are moving toward AI-aided design—developers can prototype and launch games faster using code generation.",
+      "category": "ai",
+      "reel_potential": "high",
+      "hook_idea": "Developers built a game with AI in days and got 1.2 million players. It cost $10,000 in tokens.",
+      "published": "2026-10-04T10:00:00+00:00",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "type": "outlet",
+          "title": "Free browser-based AI-generated Taipei GTA clone hits 1.2 million concurrent players in three days",
+          "url": "https://www.tomshardware.com/video-games/pc-gaming/free-browser-based-ai-generated-taipei-gta-clone-hits-1-2-million-concurrent-players-in-three-days-vibe-coded-game-cost-usd10-000-in-ai-tokens-to-build-is-set-on-the-streets-of-taipei",
+          "published": "2026-10-04T10:00:00+00:00"
+        }
+      ],
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/S5US3fmrNKudMnNjeFAPRB-1920-80.jpg"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=lWPYddNLNO8"
+      ]
+    }
+  ]
+}
