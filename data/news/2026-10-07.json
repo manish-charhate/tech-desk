@@ -1,0 +1,350 @@
+{
+  "date": "2026-10-07",
+  "generated_at": "2026-10-07T11:46:34+05:30",
+  "stats": {
+    "sources_checked": 17,
+    "failed_sources": [],
+    "candidates": 114
+  },
+  "stories": [
+    {
+      "headline": "GitHub rebuilds Git infrastructure for AI agent scale",
+      "what_happened": "GitHub is rebuilding its Git infrastructure from the ground up while keeping the service running, to handle development at the scale of AI agents. The work is designed to support agent-driven software development workflows.",
+      "status": "confirmed",
+      "why_it_matters": "As AI agents take over more coding tasks, infrastructure needs to be redesigned—this keeps GitHub competitive in an agent-driven development future.",
+      "dev_angle": "Developers using AI agents for code will need Git infrastructure that handles their different workflow patterns and scale requirements.",
+      "category": "dev-tools",
+      "reel_potential": "medium",
+      "hook_idea": "GitHub is literally rebuilding the internet's plumbing while developers are still using it—here's why.",
+      "published": "2026-10-06T20:57:56+00:00",
+      "sources": [
+        {
+          "name": "GitHub Blog",
+          "type": "official",
+          "title": "Building Git infrastructure for agent-scale development",
+          "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
+          "published": "2026-10-06T20:57:56+00:00"
+        }
+      ],
+      "images": [
+        "https://github.blog/wp-content/uploads/2026/01/generic-invertocat-github-logo.png"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "OpenAI solves long-standing math problems with unreleased model",
+      "what_happened": "OpenAI released results from an unreleased frontier model that solved 722 mathematical manuscripts covering 372 result families. The breakthroughs extend OpenAI's track record of using AI to crack open problems that mathematicians have worked on for years.",
+      "status": "confirmed",
+      "why_it_matters": "AI is now solving problems that required human experts for decades, showing real progress beyond text generation.",
+      "dev_angle": "Developers can use these results as proof points when pitching AI-powered research tools to enterprises and academic institutions.",
+      "category": "ai",
+      "reel_potential": "high",
+      "hook_idea": "An AI model you've never heard of just solved math problems mathematicians thought were impossible.",
+      "published": "2026-10-06T12:00:00+00:00",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "type": "official",
+          "title": "Sharing AI progress in mathematics",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+          "published": "2026-10-06T12:00:00+00:00"
+        },
+        {
+          "name": "The Verge",
+          "type": "outlet",
+          "title": "OpenAI drops another batch of mathematical breakthroughs",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+          "published": "2026-10-06T23:26:38+00:00"
+        }
+      ],
+      "images": [
+        "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2297765991.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "DNS root key switches October 11—test your setup now",
+      "what_happened": "On October 11, 2026, the DNS root will switch to a new key-signing key (KSK-2024). Cloudflare explains that RFC 8509 trust anchor sentinels let you test whether your DNS resolver is ready for the rollover.",
+      "status": "confirmed",
+      "why_it_matters": "If your DNS resolver isn't ready, you could lose internet access on that date. Testing now prevents outages.",
+      "dev_angle": "Developers should test their DNS resolvers and infrastructure now using the sentinels Cloudflare described to avoid October 11 failures.",
+      "category": "security",
+      "reel_potential": "medium",
+      "hook_idea": "The internet's address book is getting a new key in four days—and your DNS might not be ready.",
+      "published": "2026-10-06T17:50:11+00:00",
+      "sources": [
+        {
+          "name": "Cloudflare Blog",
+          "type": "official",
+          "title": "The keys to the Internet change on October 11. Are you ready?",
+          "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
+          "published": "2026-10-06T17:50:11+00:00"
+        }
+      ],
+      "images": [
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M497X4RV41QBVPZB04SCX1N6.01M497X7942X5X43VKEGKVY82Q.png",
+        "https://blog.cloudflare.com/_emdash/api/media/file/01M490CTJ7YDMNAYZRST2FH35F.png"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "OpenAI and Atlassian partner to connect AI to enterprise knowledge",
+      "what_happened": "Atlassian and OpenAI expanded their partnership to integrate frontier AI models directly with enterprise knowledge. The goal is to help teams plan, build, and deliver work using both Atlassian tools and OpenAI's models.",
+      "status": "confirmed",
+      "why_it_matters": "Enterprise teams can now use AI to act on internal knowledge without building custom systems—teams stay in familiar tools while getting AI superpowers.",
+      "dev_angle": "Developers building on Atlassian platforms can tap into OpenAI models directly; integration engineers can reduce custom AI tooling work.",
+      "category": "ai",
+      "reel_potential": "medium",
+      "hook_idea": "Your company's messy Jira tickets just became AI's training data—here's what that means.",
+      "published": "2026-10-06T16:00:00+00:00",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "type": "official",
+          "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+          "url": "https://openai.com/index/atlassian-partnership",
+          "published": "2026-10-06T16:00:00+00:00"
+        }
+      ],
+      "images": [
+        "https://images.ctfassets.net/kftzwdyauwt9/6QbNTCFAGpVGjDLSMfKf9M/e571659e9694e08b73f5e73a01a0682c/atlassian-social-official.png?w=1600&h=900&fit=fill"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "Google and Meta expand AI and infrastructure investments",
+      "what_happened": "Google announced a 20-year deal with Constellation Energy to upgrade six nuclear power plants across the US, securing electricity for data centers. Meta opened its public time service (NTS) at nts.meta.com with authenticated packets and open-sourced the implementation.",
+      "status": "confirmed",
+      "why_it_matters": "Tech giants are securing power and building critical infrastructure to support massive AI workloads—this shapes where and how AI will run.",
+      "dev_angle": "Developers relying on cloud services benefit from more stable power; those building distributed systems can use Meta's open-source NTS for secure time synchronization.",
+      "category": "cloud",
+      "reel_potential": "medium",
+      "hook_idea": "Google just locked in nuclear power for the next 20 years—your AI queries run on atoms now.",
+      "published": "2026-10-06T10:00:00+00:00",
+      "sources": [
+        {
+          "name": "Google Blog",
+          "type": "official",
+          "title": "Why we're backing America's existing nuclear plants",
+          "url": "https://blog.google/company-news/why-were-backing-americas-existing-nuclear-plants/",
+          "published": "2026-10-06T10:00:00+00:00"
+        },
+        {
+          "name": "The Verge",
+          "type": "outlet",
+          "title": "Google’s power-hungry data centers crave nuclear energy",
+          "url": "https://www.theverge.com/science/1006082/google-nuclear-energy-power-purchase-agreement-constellation",
+          "published": "2026-10-06T20:32:10+00:00"
+        },
+        {
+          "name": "Meta Engineering",
+          "type": "official",
+          "title": "NTS: Authenticated Time at Meta",
+          "url": "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/",
+          "published": "2026-10-06T16:00:06+00:00"
+        }
+      ],
+      "images": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GOOGLE_BRAIDWOOD_THUMBNAIL_001.width-1300.jpg",
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GOOGLE_BRAIDWOOD_THUMBNAIL_001.max-600x600.format-webp.webp",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STK093_Google_05.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=V71MGP4Fiik"
+      ]
+    },
+    {
+      "headline": "AWS adds new observability and security features",
+      "what_happened": "AWS Batch now publishes job metrics to CloudWatch for native observability, emitting metrics throughout job lifecycles. AWS Certificate Manager added support for ACME issuance through AWS PrivateLink, allowing public TLS certificate requests over private network paths.",
+      "status": "confirmed",
+      "why_it_matters": "Developers can now see what's happening inside batch jobs and request certificates without leaving their VPCs—both reduce operational friction.",
+      "dev_angle": "Use CloudWatch metrics to debug batch job failures faster; use PrivateLink for ACME to avoid exposing infrastructure to the public internet.",
+      "category": "cloud",
+      "reel_potential": "low",
+      "hook_idea": "AWS just made batch jobs less of a black box and certificates less of a security headache.",
+      "published": "2026-10-06T14:01:00+00:00",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "AWS Batch now publishes job metrics to Amazon CloudWatch",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-job-cloudwatch-metrics/",
+          "published": "2026-10-06T17:30:00+00:00"
+        },
+        {
+          "name": "AWS What's New",
+          "type": "official",
+          "title": "AWS Certificate Manager now supports ACME issuance through AWS PrivateLink",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/AWS-Certificate-Manager-ACME-Privatelink",
+          "published": "2026-10-06T14:01:00+00:00"
+        }
+      ],
+      "images": [],
+      "videos": []
+    },
+    {
+      "headline": "Hackers breach domain registries, obtain fake TLS certificates for Google",
+      "what_happened": "Attackers compromised three domain registries and obtained unauthorized TLS certificates for Google and other large services. The attack shows that even critical security infrastructure can be targeted.",
+      "status": "confirmed",
+      "why_it_matters": "If someone can issue fake certificates for Google, they can impersonate it to users. This undermines trust in HTTPS.",
+      "dev_angle": "Use certificate transparency logs to monitor unauthorized certs issued for your domains; implement HPKP or similar pinning for critical services.",
+      "category": "security",
+      "reel_potential": "high",
+      "hook_idea": "Hackers just proved they can fake Google's security certificate—here's what that actually means for you.",
+      "published": "2026-10-06T19:21:14+00:00",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "type": "outlet",
+          "title": "Hackers obtain counterfeit TLS certificates for Google and other large services",
+          "url": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
+          "published": "2026-10-06T19:21:14+00:00"
+        }
+      ],
+      "images": [
+        "https://cdn.arstechnica.net/wp-content/uploads/2026/10/broken-https-tls-1152x648.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "OpenAI and Synopsys partner on AI-powered chip design",
+      "what_happened": "OpenAI and Synopsys are developing GPT-Synopsys, a specialized semiconductor-design model that will directly operate Synopsys EDA tools to automate chip design workflows.",
+      "status": "confirmed",
+      "why_it_matters": "AI could speed up chip design cycles, potentially reducing time to market and design costs for new processors.",
+      "dev_angle": "Hardware engineers can prototype chips faster; developers building AI will benefit from chips designed and optimized by AI.",
+      "category": "chips",
+      "reel_potential": "high",
+      "hook_idea": "AI is now designing the chips that run AI—and it's going to make chip design way faster.",
+      "published": "2026-10-06T11:00:00+00:00",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "type": "outlet",
+          "title": "OpenAI and Synopsys partner to build \"GPT-Synopsys\" for autonomous chip design",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-and-synopsys-partner-to-build-gpt-synopsys-for-autonomous-chip-design-specialized-ai-model-will-operate-eda-tools-allowing-engineers-to-deliver-more-sophisticated-chips-faster",
+          "published": "2026-10-06T11:00:00+00:00"
+        }
+      ],
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/L5bu9i78ZpqMnudoVp2DSk-1200-80.jpg",
+        "https://cdn.mos.cms.futurecdn.net/L5bu9i78ZpqMnudoVp2DSk-1920-80.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "Apple partners with LG on smart home devices launching next week",
+      "what_happened": "Apple is collaborating with LG on new smart home products including a video doorbell, thermostat, indoor camera, and smart lock. The products feature LG branding but will integrate with Apple's rumored smart home hub expected to launch on October 13.",
+      "status": "rumour",
+      "why_it_matters": "Apple is pushing into smart home with trusted hardware partners, signaling a real competitive move against Amazon and Google.",
+      "dev_angle": "Developers building HomeKit integrations should prepare for new LG device types and Apple's new hub capabilities.",
+      "category": "hardware",
+      "reel_potential": "medium",
+      "hook_idea": "Apple's finally making its own smart home gadgets—but LG is making them for them.",
+      "published": "2026-10-06T21:39:53+00:00",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "type": "outlet",
+          "title": "Apple is reportedly partnering with LG to launch a smart lock, thermostat, and doorbell",
+          "url": "https://techcrunch.com/2026/10/06/apple-is-reportedly-partnering-with-lg-to-launch-a-smart-lock-thermostat-and-doorbell/",
+          "published": "2026-10-06T22:53:09+00:00"
+        },
+        {
+          "name": "Engadget",
+          "type": "outlet",
+          "title": "Apple reportedly worked with LG on gadgets for its upcoming smart home push",
+          "url": "https://www.engadget.com/2279541/apple-reportedly-worked-with-lg-on-gadgets-for-its-upcoming-smart-home-push/",
+          "published": "2026-10-06T22:32:36+00:00"
+        },
+        {
+          "name": "The Verge",
+          "type": "outlet",
+          "title": "Apple and LG team up on new smart home gear, starting with a lock, doorbell, and thermostat",
+          "url": "https://www.theverge.com/news/1006238/apple-lg-homekit-rumor-fcc",
+          "published": "2026-10-06T21:39:53+00:00"
+        }
+      ],
+      "images": [
+        "https://techcrunch.com/wp-content/uploads/2026/08/Screenshot-2026-08-26-at-12.45.18-PM.png?resize=1200,927",
+        "https://www.engadget.com/img/gallery/apple-reportedly-worked-with-lg-on-gadgets-for-its-upcoming-smart-home-push/l-intro-1791325658.jpg",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STK071_APPLE_E.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "Two PlayStation products leak—one might be Portal OLED",
+      "what_happened": "Wi-Fi Alliance recently certified two unannounced PlayStation products. Certification documents suggest they could be updates to the PlayStation Portal handheld, possibly including the OLED screen rumored earlier in 2026.",
+      "status": "leak",
+      "why_it_matters": "Sony may be refreshing its game streaming handheld with a better screen, keeping it relevant against new portable gaming devices.",
+      "dev_angle": "Game developers should prepare for updated Portal hardware with OLED capabilities when it launches.",
+      "category": "hardware",
+      "reel_potential": "medium",
+      "hook_idea": "Sony's game streaming handheld is getting an upgrade—and Wi-Fi documents just leaked it.",
+      "published": "2026-10-06T19:12:26+00:00",
+      "sources": [
+        {
+          "name": "The Verge",
+          "type": "outlet",
+          "title": "Two mystery PlayStation products have leaked — one might be a PlayStation Portal OLED",
+          "url": "https://www.theverge.com/games/1006092/playstation-portal-oled-wi-fi-alliance-certifications",
+          "published": "2026-10-06T19:12:26+00:00"
+        }
+      ],
+      "images": [
+        "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25184511/111323_PlayStation_Portal_ADiBenedetto_0013.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25184511/111323_PlayStation_Portal_ADiBenedetto_0013.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "AI agents face new website blocks as anti-bot defenses spread",
+      "what_happened": "Websites are deliberately blocking AI agents from shopping, booking flights, and making reservations. A new standard aims to create rules for agent access, but personal AI assistants promise to automate these tasks.",
+      "status": "confirmed",
+      "why_it_matters": "Even if your AI assistant is capable, websites won't let it do things for you—this is the next battleground between users and websites.",
+      "dev_angle": "Developers building agents need to understand website terms of service and work within emerging standards for agent access.",
+      "category": "ai",
+      "reel_potential": "high",
+      "hook_idea": "Your AI assistant wants to book you a flight—but the airline website is literally blocking it.",
+      "published": "2026-10-06T19:56:50+00:00",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "type": "outlet",
+          "title": "The next hurdle for AI agents: getting websites to let them in",
+          "url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
+          "published": "2026-10-06T19:56:50+00:00"
+        }
+      ],
+      "images": [
+        "https://techcrunch.com/wp-content/uploads/2026/10/ai-agent-bots-GettyImages-2243729307.jpg?resize=1200,800"
+      ],
+      "videos": []
+    },
+    {
+      "headline": "Qualcomm and Huawei end patent war—Qualcomm will pay for licenses",
+      "what_happened": "Qualcomm will pay Huawei for the first time ever to license its patents in a multi-year cross-license covering 5G and AI. Qualcomm is also buying some Huawei US patents, marking a historic turnaround in their relationship.",
+      "status": "confirmed",
+      "why_it_matters": "The US semiconductor industry is negotiating directly with Huawei despite years of trade tensions—this signals pragmatism over ideology.",
+      "dev_angle": "Device makers relying on Qualcomm chips can now rely on Huawei's 5G patents being properly licensed, reducing legal risk.",
+      "category": "business",
+      "reel_potential": "medium",
+      "hook_idea": "Qualcomm just started paying Huawei for patents—here's what the chip war looks like now.",
+      "published": "2026-10-06T11:30:00+00:00",
+      "sources": [
+        {
+          "name": "Tom's Hardware",
+          "type": "outlet",
+          "title": "Qualcomm will pay Huawei to license its patents for the first time in historic turnaround",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/qualcomm-will-pay-huawei-to-license-its-patents-for-the-first-time-in-historic-turnaround-reversal-in-a-5g-and-ai-cross-licensing-deal-comes-25-years-after-huawei-first-paid-qualcomm",
+          "published": "2026-10-06T11:30:00+00:00"
+        }
+      ],
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/XSSbgkkmLdjiDmyoCmPaeY-2560-80.png",
+        "https://cdn.mos.cms.futurecdn.net/XSSbgkkmLdjiDmyoCmPaeY-1920-80.png"
+      ],
+      "videos": []
+    }
+  ]
+}
