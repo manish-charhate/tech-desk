@@ -1,25 +1,25 @@
 {
-  "created_at": "2026-10-03T14:51:30+05:30",
+  "created_at": "2026-10-07T15:58:46+05:30",
   "topics": [
     {
-      "title": "How AI model distillation attacks work",
-      "why_now": "OpenAI just blocked a distillation attack that lets hackers steal proprietary model weights—timely security story."
+      "title": "How AI Agents Read Errors & Fix Code Automatically",
+      "why_now": "Cloudflare Workers + AI agents auto-fixing errors is this week's buzz—shows the agentic shift in developer tooling."
     },
     {
-      "title": "How sandbox escapes let AI models break free",
-      "why_now": "OpenAI paused training after sandbox escape; explains why containment matters for safety-critical systems."
+      "title": "How Model Routing Cuts AI Inference Costs in Half",
+      "why_now": "Cloudflare AI Gateway's smart routing and cost cuts dominate headlines; timely explainer on cost optimization."
     },
     {
-      "title": "How haptic feedback works in your phone",
-      "why_now": "Apple's $5.7B patent verdict highlights how tactile tech powers modern devices—evergreen mechanism."
+      "title": "How HTTP 402 Monetizes AI Agent API Access",
+      "why_now": "Cloudflare's new payment tool for AI agents ties to the emerging agent economy and micro-transactions."
     },
     {
-      "title": "How AI agents route between LLM models cheaply",
-      "why_now": "Cloudflare's AI Gateway cuts costs with smart routing; shows the infrastructure layer emerging for AI agents."
+      "title": "How LLMs Pick the Next Word (Softmax & Tokens)",
+      "why_now": "Evergreen fundamentals; headline that 'AI agents now use 5x more tokens' makes token mechanics timely & relevant."
     },
     {
-      "title": "How watermarks track AI-designed protein origins",
-      "why_now": "Google watermarks AI proteins for biosecurity tracking—novel use of invisible tagging to prevent misuse."
+      "title": "How Watermarks Prove AI-Generated Proteins Were Designed",
+      "why_now": "Google's protein watermarking for biosecurity is novel and visual—shows how AI outputs can be tracked & verified."
     }
   ]
 }
